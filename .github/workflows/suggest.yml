@@ -1,0 +1,70 @@
+name: suggest
+
+# A "Suggest a resource" issue becomes a pull request that adds the entry; a maintainer reviews and merges it.
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: suggest-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  pull-request:
+    if: contains(github.event.issue.labels.*.name, 'suggestion') && github.event.issue.state == 'open'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install pyyaml==6.0.2
+      - name: Add the entry
+        id: add
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          if name=$(python3 scripts/suggest.py 2> error.txt); then
+            echo "name=$name" >> "$GITHUB_OUTPUT"
+          else
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Link answers
+        if: steps.add.outputs.failed != 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          file=$(git diff --name-only -- data | head -1)
+          python3 scripts/check_links.py "$file" > links.txt || true
+      - name: Open or update the pull request
+        if: steps.add.outputs.failed != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NAME: ${{ steps.add.outputs.name }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          branch="suggest/$ISSUE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git commit -qam "Add $NAME" -m "Suggested in #$ISSUE."
+          git push -f origin "$branch"
+          body=$(printf 'Adds **%s**, suggested in #%s.\n\nCloses #%s\n\n<details><summary>Link check</summary>\n\n```\n%s\n```\n</details>' "$NAME" "$ISSUE" "$ISSUE" "$(tail -5 links.txt)")
+          if gh pr view "$branch" --json number > /dev/null 2>&1; then
+            gh pr edit "$branch" --title "Add $NAME" --body "$body"
+          else
+            pr=$(gh pr create --head "$branch" --title "Add $NAME" --body "$body")
+            gh issue comment "$ISSUE" --body "Thanks! A pull request is ready for review: $pr"
+          fi
+      - name: Explain what to fix
+        if: steps.add.outputs.failed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --body "$(printf 'Thanks for the suggestion! It could not be added yet:\n\n> %s\n\nEdit the issue to fix it and the bot will try again.' "$(cat error.txt)")"
