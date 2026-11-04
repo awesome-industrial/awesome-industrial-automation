@@ -1,0 +1,32 @@
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # links, every Monday
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  list:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install pyyaml==6.0.2
+      - name: Entries follow the rules and readme.md is current
+        if: github.event_name != 'schedule'
+        run: python3 scripts/build.py --check
+      - name: awesome-lint
+        if: github.event_name != 'schedule'
+        run: npx --yes awesome-lint@2.3.0 readme.md
+      - name: Links answer and repositories are alive
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_links.py
