@@ -1,0 +1,45 @@
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1" # links, every Monday
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  list:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install pyyaml==6.0.2
+      - name: Entries follow the rules and generated files are current
+        if: github.event_name != 'schedule'
+        run: python3 scripts/build.py --check
+      - name: awesome-lint
+        if: github.event_name != 'schedule'
+        run: npx --yes awesome-lint@2.3.0 readme.md
+      - name: Links answer and repositories are alive
+        id: links
+        shell: bash # with pipefail, so tee does not hide a failing check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_links.py | tee links.txt
+      - name: Report broken links
+        # The weekly run opens (or updates) one issue instead of failing silently.
+        if: failure() && steps.links.outcome == 'failure' && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create broken-links --color d73a4a --description "Weekly link check" 2> /dev/null || true
+          body=$(printf 'The weekly link check found problems. Fix the URL, or remove the entry if the project is gone.\n\n```\n%s\n```' "$(cat links.txt)")
+          open=$(gh issue list --label broken-links --state open --json number --jq '.[0].number')
+          if [ -n "$open" ]; then gh issue comment "$open" --body "$body"; else gh issue create --title "Broken links" --label broken-links --body "$body"; fi
