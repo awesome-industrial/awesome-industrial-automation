@@ -1,7 +1,8 @@
 ## Contributing
 
-Contributions are welcome. Read the [contribution guidelines](contributing.md) first: entries are added to the
-files in [data/](data/), and the readme is generated from them.
+Contributions are welcome. The quickest way is to
+[suggest a resource](https://github.com/awesome-industrial/awesome-industrial-automation/issues/new?template=suggest.yml);
+a bot turns it into a pull request. See the [contribution guidelines](contributing.md) for what belongs here.
 
 ## Footnotes
 

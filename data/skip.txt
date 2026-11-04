@@ -1,0 +1,8 @@
+# Repositories the weekly discovery should not propose again (owner/repo, one per line).
+xming521/WeClone
+Ch1rpys/Mirrai
+TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials
+networkupstools/nut
+evcc-io/evcc
+lvgl/lvgl
+visuallyjs/visuallyjs

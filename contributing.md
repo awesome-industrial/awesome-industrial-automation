@@ -18,7 +18,13 @@ actually recommend, so please read this before opening a pull request.
 - Blog posts that are mainly advertising, link farms, paywalled content without a free part.
 - Your own project, unless it stands on its merits next to the others. Say in the pull request that it is yours.
 
-## How to add an entry
+## The quick way
+
+[Open a suggestion](https://github.com/awesome-industrial/awesome-industrial-automation/issues/new?template=suggest.yml):
+fill in the name, link, one-line description and section. A bot turns it into a pull request and tells you if
+something needs fixing. A maintainer reviews and merges it.
+
+## How to add an entry by hand
 
 1. Find the right file in [data/](data/) and the right section.
 2. Add the entry:
@@ -37,6 +43,15 @@ actually recommend, so please read this before opening a pull request.
 ## Checks
 
 `scripts/build.py --check` validates every entry and `scripts/check_links.py` checks the links. Both run on every
-pull request; the link check also runs weekly.
+pull request; the link check also runs weekly and opens an issue when a link breaks. Every Thursday a bot opens an
+issue with active projects on industrial topics that are not on the list yet, for review.
+
+## Is your project on the list?
+
+You can show it with this badge:
+
+```markdown
+[![Mentioned in Awesome Industrial Automation](https://awesome.re/mentioned-badge.svg)](https://github.com/awesome-industrial/awesome-industrial-automation)
+```
 
 By contributing you agree to release your contribution under [CC0](license).
