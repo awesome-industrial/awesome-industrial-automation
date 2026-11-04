@@ -46,6 +46,9 @@ sections:
       - name: ModbusTools
         url: https://github.com/serhmarch/ModbusTools
         description: Cross-platform GUI client and server simulators for Modbus TCP, UDP, RTU and ASCII.
+      - name: Open ModScan
+        url: https://github.com/sanny32/OpenModScan
+        description: Free Modbus master utility for Windows and Linux that polls RTU, ASCII and TCP devices and shows registers in a grid.
       - name: node-red-contrib-modbus
         url: https://github.com/BiancoRoyal/node-red-contrib-modbus
         description: Node-RED nodes for reading and writing Modbus TCP and serial devices.

@@ -64,6 +64,9 @@ sections:
       - name: AutoPLC
         url: https://github.com/cangkui/AutoPLC
         description: Research framework and benchmarks for generating vendor-specific IEC 61131-3 Structured Text with LLMs.
+      - name: AssetOpsBench
+        url: https://github.com/IBM/AssetOpsBench
+        description: IBM benchmark and framework for building and evaluating AI agents on industrial asset operations and maintenance tasks.
   - title: Datasets
     items:
       - name: awesome-industrial-datasets

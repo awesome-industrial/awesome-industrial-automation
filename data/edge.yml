@@ -34,6 +34,12 @@ sections:
       - name: Fledge
         url: https://github.com/fledge-iot/fledge
         description: Edge platform that collects, processes and forwards sensor and machine data through pluggable south and north services.
+      - name: OpenRemote
+        url: https://github.com/openremote/core
+        description: IoT platform with Modbus, MQTT and other agents, asset modelling, rules and dashboards for energy and industrial sites.
+      - name: Shifu
+        url: https://github.com/Edgenesis/shifu
+        description: Kubernetes-native framework that runs each device as a pod, with drivers for OPC UA, Modbus, MQTT and PLCs.
       - name: HiveMQ Edge
         url: https://github.com/hivemq/hivemq-edge
         description: Edge gateway and MQTT broker that translates OPC UA, Modbus, EtherNet/IP and S7 data into MQTT.

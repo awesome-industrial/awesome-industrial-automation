@@ -73,6 +73,7 @@ _Stacks, libraries and tools for the protocols machines speak._
 - [ModbusTools](https://github.com/serhmarch/ModbusTools) - Cross-platform GUI client and server simulators for Modbus TCP, UDP, RTU and ASCII.
 - [NModbus](https://github.com/NModbus/NModbus) - C# implementation of Modbus masters and slaves over serial RTU and ASCII, TCP and UDP.
 - [node-red-contrib-modbus](https://github.com/BiancoRoyal/node-red-contrib-modbus) - Node-RED nodes for reading and writing Modbus TCP and serial devices.
+- [Open ModScan](https://github.com/sanny32/OpenModScan) - Free Modbus master utility for Windows and Linux that polls RTU, ASCII and TCP devices and shows registers in a grid.
 - [pymodbus](https://github.com/pymodbus-dev/pymodbus) - Modbus client and server stack for Python with serial, TCP, TLS and UDP transports and a built-in simulator.
 - [rodbus](https://github.com/stepfunc/rodbus) - Modbus library written in Rust with bindings for C, C++, .NET and Java.
 - [simonvetter/modbus](https://github.com/simonvetter/modbus) - Go Modbus client and server supporting RTU, TCP, TCP over TLS and RTU over TCP or UDP.
@@ -193,7 +194,9 @@ _Gateways, brokers and platforms that move plant data from machines to the syste
 - [Litmus Edge](https://litmus.io/litmus-edge) `Commercial` - Industrial edge platform for collecting, normalizing and analyzing machine data on site.
 - [Neuron](https://github.com/emqx/neuron) - Industrial connectivity server that collects device data and publishes it over MQTT, with Modbus drivers in the open source edition.
 - [Node-RED](https://github.com/node-red/node-red) - Flow-based low-code tool for event-driven applications, with built-in MQTT and community nodes for Modbus, OPC UA and S7.
+- [OpenRemote](https://github.com/openremote/core) - IoT platform with Modbus, MQTT and other agents, asset modelling, rules and dashboards for energy and industrial sites.
 - [Proxus](https://proxus.io/platform/) `Commercial` - Industrial data platform that connects PLCs, CNCs and OPC UA servers, models plant data in a Unified Namespace and delivers it to databases and AI.
+- [Shifu](https://github.com/Edgenesis/shifu) - Kubernetes-native framework that runs each device as a pod, with drivers for OPC UA, Modbus, MQTT and PLCs.
 - [Telegraf](https://github.com/influxdata/telegraf) - Plugin-driven data collection agent with inputs for Modbus, OPC UA, Siemens S7 and MQTT.
 - [ThingsBoard IoT Gateway](https://github.com/thingsboard/thingsboard-gateway) - Python gateway with connectors for Modbus, OPC UA, BACnet, S7, MQTT and more that forwards data to ThingsBoard.
 
@@ -382,6 +385,7 @@ _Machine learning on machine data, AI agents that talk to the plant, and the dat
 
 ### AI Agents and LLMs for OT
 
+- [AssetOpsBench](https://github.com/IBM/AssetOpsBench) - IBM benchmark and framework for building and evaluating AI agents on industrial asset operations and maintenance tasks.
 - [AutoPLC](https://github.com/cangkui/AutoPLC) - Research framework and benchmarks for generating vendor-specific IEC 61131-3 Structured Text with LLMs.
 - [kukapay OPC UA MCP](https://github.com/kukapay/opcua-mcp) - Python MCP server with tools to read, write and browse nodes on an OPC UA server.
 - [Modbus MCP Server](https://github.com/ezhuk/modbus-mcp) - Python MCP server that reads and writes Modbus registers and coils, with devices named by host, port and unit.

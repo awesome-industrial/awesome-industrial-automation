@@ -6,3 +6,12 @@ networkupstools/nut
 evcc-io/evcc
 lvgl/lvgl
 visuallyjs/visuallyjs
+artisan-roaster-scope/artisan
+Mastershort/neonplan3d
+timi-liuliang/echo
+wlcrs/huawei_solar
+mkaiser/Sungrow-SHx-Inverter-Modbus-Home-Assistant
+NativeSensors/EyeGestures
+nasa/nos3
+MikaylaFischler/cc-mek-scada
+dathlin/HslCommunication
