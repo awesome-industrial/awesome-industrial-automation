@@ -1,0 +1,42 @@
+title: Security
+order: 80
+description: A short set of widely used open source OT security tools. The two lists at the end go much deeper.
+sections:
+  - title: Security
+    items:
+      - name: Malcolm
+        url: https://github.com/cisagov/Malcolm
+        description: Network traffic analysis suite from CISA and Idaho National Laboratory that parses ICS protocols with Zeek and indexes them in OpenSearch.
+      - name: Zeek
+        url: https://github.com/zeek/zeek
+        description: Network analysis framework that turns traffic into protocol logs, the base for the ICSNPP industrial protocol parsers.
+      - name: CSET
+        url: https://github.com/cisagov/cset
+        description: CISA Cyber Security Evaluation Tool that walks an organization through assessments against IEC 62443, NIST and other standards.
+      - name: MITRE ATT&CK for ICS
+        url: https://attack.mitre.org/matrices/ics/
+        description: Knowledge base of adversary tactics and techniques observed against industrial control systems.
+      - name: Caldera for OT
+        url: https://github.com/mitre/caldera-ot
+        description: MITRE Caldera plugins that emulate adversary actions over Modbus, BACnet, DNP3, IEC 61850 and other OT protocols.
+      - name: ICSpector
+        url: https://github.com/microsoft/ics-forensics-tools
+        description: Microsoft forensics framework that pulls project files and metadata from PLCs to look for anomalous logic.
+      - name: Conpot
+        url: https://github.com/mushorg/conpot
+        description: Low-interaction ICS honeypot that emulates PLCs over Modbus, S7, BACnet, IPMI and other protocols.
+      - name: GRFICSv2
+        url: https://github.com/Fortiphyd/GRFICSv2
+        description: Virtual ICS lab with a 3D chemical plant simulation, PLC, HMI and attacker machines for security training.
+      - name: Labshock
+        url: https://github.com/zakharb/labshock
+        description: Docker-based OT cyber range with SCADA, PLC, engineering workstation and DMZ for practicing attacks and detection in isolation.
+      - name: ICS-Security-Tools
+        url: https://github.com/ITI/ICS-Security-Tools
+        description: Collection of tools, protocol references, PCAPs and tips for exploring ICS security, from the University of Illinois ITI.
+      - name: awesome-industrial-control-system-security
+        url: https://github.com/hslatman/awesome-industrial-control-system-security
+        description: Curated list of ICS security tools, papers, conferences and datasets.
+      - name: awesome-industrial-protocols
+        url: https://github.com/Orange-Cyberdefense/awesome-industrial-protocols
+        description: Security-oriented reference of industrial protocols with specifications, tools, attacks and detection resources.

@@ -1,0 +1,290 @@
+title: Protocols and Connectivity
+order: 10
+description: Stacks, libraries and tools for the protocols machines speak.
+sections:
+  - title: Modbus
+    items:
+      - name: pymodbus
+        url: https://github.com/pymodbus-dev/pymodbus
+        description: Modbus client and server stack for Python with serial, TCP, TLS and UDP transports and a built-in simulator.
+      - name: libmodbus
+        url: https://github.com/stephane/libmodbus
+        description: Portable C library for Modbus RTU and TCP masters and slaves on Linux, macOS, FreeBSD and Windows.
+      - name: NModbus
+        url: https://github.com/NModbus/NModbus
+        description: C# implementation of Modbus masters and slaves over serial RTU and ASCII, TCP and UDP.
+      - name: FluentModbus
+        url: https://github.com/Apollo3zehn/FluentModbus
+        description: Lightweight Modbus TCP and RTU client and server for .NET.
+      - name: simonvetter/modbus
+        url: https://github.com/simonvetter/modbus
+        description: Go Modbus client and server supporting RTU, TCP, TCP over TLS and RTU over TCP or UDP.
+      - name: tokio-modbus
+        url: https://github.com/slowtec/tokio-modbus
+        description: Asynchronous Modbus RTU and TCP client and server for Rust, built on Tokio.
+      - name: rodbus
+        url: https://github.com/stepfunc/rodbus
+        description: Modbus library written in Rust with bindings for C, C++, .NET and Java.
+      - name: digitalpetri modbus
+        url: https://github.com/digitalpetri/modbus
+        description: Java 17+ library for Modbus TCP, Modbus TCP Security and Modbus RTU over serial or TCP.
+      - name: j2mod
+        url: https://github.com/steveohara/j2mod
+        description: Java Modbus library with master and slave support over TCP, UDP and serial lines.
+      - name: modbus-serial
+        url: https://github.com/yaacov/node-modbus-serial
+        description: Pure JavaScript Modbus RTU and TCP client and server for Node.js.
+      - name: ArduinoModbus
+        url: https://github.com/arduino-libraries/ArduinoModbus
+        description: Arduino library for Modbus RTU and TCP clients and servers on Arduino boards.
+      - name: mbpoll
+        url: https://github.com/epsilonrt/mbpoll
+        description: Command-line utility to read and write Modbus RTU or TCP slaves from a terminal.
+      - name: mbusd
+        url: https://github.com/3cky/mbusd
+        description: Gateway daemon that bridges Modbus TCP clients to Modbus RTU devices on RS-232 or RS-485 lines.
+      - name: ModbusTools
+        url: https://github.com/serhmarch/ModbusTools
+        description: Cross-platform GUI client and server simulators for Modbus TCP, UDP, RTU and ASCII.
+      - name: node-red-contrib-modbus
+        url: https://github.com/BiancoRoyal/node-red-contrib-modbus
+        description: Node-RED nodes for reading and writing Modbus TCP and serial devices.
+      - name: Modbus Register Maps
+        url: https://github.com/proxus-io/modbus-register-maps
+        description: Machine-readable YAML register maps for energy meters, inverters and drives, with address, data type, byte order, unit and scale.
+  - title: OPC UA
+    items:
+      - name: open62541
+        url: https://github.com/open62541/open62541
+        description: OPC UA client and server SDK in C99 with PubSub support, suitable for embedded targets.
+      - name: opcua-asyncio
+        url: https://github.com/FreeOpcUa/opcua-asyncio
+        description: Asyncio-based OPC UA client and server library for Python, published as asyncua.
+      - name: UA-.NETStandard
+        url: https://github.com/OPCFoundation/UA-.NETStandard
+        description: OPC Foundation reference stack for building OPC UA clients and servers in .NET.
+      - name: Eclipse Milo
+        url: https://github.com/eclipse-milo/milo
+        description: Java implementation of OPC UA with client and server SDKs.
+      - name: node-opcua
+        url: https://github.com/node-opcua/node-opcua
+        description: OPC UA client and server SDK for Node.js, written in TypeScript.
+      - name: gopcua
+        url: https://github.com/gopcua/opcua
+        description: Native Go OPC UA library focused on client applications.
+      - name: async-opcua
+        url: https://github.com/FreeOpcUa/async-opcua
+        description: OPC UA client and server implementation in Rust.
+      - name: S2OPC
+        url: https://gitlab.com/systerel/S2OPC
+        description: Safety and security oriented OPC UA toolkit in C, designed with embedded devices in mind.
+      - name: opcua-client-gui
+        url: https://github.com/FreeOpcUa/opcua-client-gui
+        description: Desktop OPC UA client for browsing address spaces, reading, writing and subscribing to nodes.
+      - name: opcua-commander
+        url: https://github.com/node-opcua/opcua-commander
+        description: Terminal-based OPC UA client for browsing and monitoring nodes, built on node-opcua.
+      - name: UaExpert
+        url: https://www.unified-automation.com/products/development-tools/uaexpert.html
+        description: Free-of-charge OPC UA test client for browsing, data access, alarms, history and method calls.
+        commercial: true
+      - name: OPC PLC
+        url: https://github.com/Azure-Samples/iot-edge-opc-plc
+        description: OPC UA server simulator with nodes that generate random, ramping and anomalous data for testing.
+      - name: OPC Publisher
+        url: https://github.com/Azure/Industrial-IoT
+        description: Edge module that subscribes to OPC UA servers and publishes the data as OPC UA PubSub messages to Azure IoT Hub or MQTT.
+      - name: UA-Nodeset
+        url: https://github.com/OPCFoundation/UA-Nodeset
+        description: NodeSet XML files for the OPC UA core information model and companion specifications.
+      - name: UA-ModelCompiler
+        url: https://github.com/OPCFoundation/UA-ModelCompiler
+        description: Generates NodeSet files and C# or ANSI C code from OPC UA information model designs.
+      - name: node-red-contrib-opcua
+        url: https://github.com/mikakaraila/node-red-contrib-opcua
+        description: Node-RED nodes for OPC UA clients and servers, based on node-opcua.
+  - title: MQTT and Sparkplug
+    items:
+      - name: Eclipse Paho Python
+        url: https://github.com/eclipse-paho/paho.mqtt.python
+        description: MQTT 3.1, 3.1.1 and 5.0 client library for Python.
+      - name: Eclipse Paho C
+        url: https://github.com/eclipse-paho/paho.mqtt.c
+        description: MQTT client library in C for Linux, Windows and macOS, with synchronous and asynchronous APIs.
+      - name: Eclipse Paho Go
+        url: https://github.com/eclipse-paho/paho.mqtt.golang
+        description: MQTT 3.1.1 client library for Go.
+      - name: MQTT.js
+        url: https://github.com/mqttjs/MQTT.js
+        description: MQTT client for Node.js and the browser over TCP, TLS and WebSockets.
+      - name: MQTTnet
+        url: https://github.com/dotnet/MQTTnet
+        description: MQTT client and server library for .NET.
+      - name: HiveMQ MQTT Client
+        url: https://github.com/hivemq/hivemq-mqtt-client
+        description: Java client library for MQTT 5.0 and 3.1.1 with reactive, asynchronous and blocking APIs.
+      - name: aiomqtt
+        url: https://github.com/empicano/aiomqtt
+        description: Idiomatic asyncio MQTT client for Python.
+      - name: PubSubClient
+        url: https://github.com/knolleary/pubsubclient
+        description: Lightweight MQTT client library for Arduino and compatible boards.
+      - name: MQTT CLI
+        url: https://github.com/hivemq/mqtt-cli
+        description: Command-line MQTT 5.0 and 3.1.1 client for publishing, subscribing and testing brokers.
+      - name: MQTTX
+        url: https://github.com/emqx/MQTTX
+        description: Cross-platform MQTT 5.0 client for the desktop, the command line and the browser.
+      - name: Sparkplug
+        url: https://github.com/eclipse-sparkplug/sparkplug
+        description: Eclipse specification and compatibility kit for stateful MQTT topics and payloads in industrial systems.
+      - name: Eclipse Tahu
+        url: https://github.com/eclipse-tahu/tahu
+        description: Reference Sparkplug B implementations in Java, C, C#, Python and JavaScript, plus Node-RED nodes.
+      - name: SparkplugNet
+        url: https://github.com/SeppPenner/SparkplugNet
+        description: Library for .NET to build Sparkplug edge nodes and host applications, built on MQTTnet.
+  - title: Siemens S7
+    items:
+      - name: Snap7
+        url: https://snap7.sourceforge.net/
+        description: Multi-platform S7 communication suite with client, server and partner components for exchanging data with S7 PLCs.
+      - name: python-snap7
+        url: https://github.com/gijzelaerr/python-snap7
+        description: Pure Python library for the classic S7 protocol, covering S7-300/400 and S7-1200/1500 with PUT/GET enabled.
+      - name: S7.Net Plus
+        url: https://github.com/S7NetPlus/s7netplus
+        description: Library for .NET to read and write data on Siemens S7 PLCs over Ethernet.
+      - name: gos7
+        url: https://github.com/robinson/gos7
+        description: Go implementation of the Siemens S7 protocol for reading and writing PLC data.
+      - name: SoftPlc
+        url: https://github.com/fbarresi/SoftPlc
+        description: Simulated S7 PLC in a Docker container, with a web API to create and edit data blocks for testing.
+      - name: node-red-contrib-s7
+        url: https://github.com/st-one-io/node-red-contrib-s7
+        description: Node-RED nodes to read and write variables on Siemens S7 PLCs.
+  - title: EtherNet/IP and CIP
+    items:
+      - name: OpENer
+        url: https://github.com/EIPStackGroup/OpENer
+        description: EtherNet/IP stack in C for I/O adapter devices, with implicit and explicit connections.
+      - name: EIPScanner
+        url: https://github.com/nimbuscontrols/EIPScanner
+        description: C++ library for EtherNet/IP scanners with explicit and implicit messaging.
+      - name: libplctag
+        url: https://github.com/libplctag/libplctag
+        description: Portable C library for reading and writing tags on Allen-Bradley and Modbus PLCs over Ethernet.
+      - name: libplctag.NET
+        url: https://github.com/libplctag/libplctag.NET
+        description: Wrapper for .NET around libplctag for reading and writing PLC tags.
+      - name: pycomm3
+        url: https://github.com/ottowayi/pycomm3
+        description: Python EtherNet/IP library for reading and writing tags and calling CIP services on Allen-Bradley PLCs.
+      - name: pylogix
+        url: https://github.com/dmroeder/pylogix
+        description: Python library to read and write tags on Allen-Bradley ControlLogix and CompactLogix PLCs.
+      - name: gologix
+        url: https://github.com/danomagnum/gologix
+        description: EtherNet/IP client and server library for Go, modeled after pylogix.
+      - name: cpppo
+        url: https://github.com/pjkundert/cpppo
+        description: Python parser and originator for EtherNet/IP CIP, including a simulated Logix controller.
+      - name: node-ethernet-ip
+        url: https://github.com/cmseaton42/node-ethernet-ip
+        description: Lightweight EtherNet/IP API for Node.js to talk to ControlLogix and CompactLogix controllers.
+      - name: EEIP.NET
+        url: https://github.com/rossmann-engineering/EEIP.NET
+        description: EtherNet/IP library for .NET with explicit and implicit messaging.
+      - name: digitalpetri ethernet-ip
+        url: https://github.com/digitalpetri/ethernet-ip
+        description: Asynchronous, non-blocking EtherNet/IP client for Java.
+  - title: BACnet
+    items:
+      - name: BACnet Stack
+        url: https://github.com/bacnet-stack/bacnet-stack
+        description: BACnet application, network and MAC layer library in C for embedded devices and command-line tools.
+      - name: BACpypes3
+        url: https://github.com/JoelBender/BACpypes3
+        description: Asyncio-based BACnet communications library for Python.
+      - name: BAC0
+        url: https://github.com/ChristianTremblay/BAC0
+        description: Python scripting library on top of BACpypes3 for discovering, reading, writing and trending BACnet points.
+      - name: BACnet for .NET
+        url: https://github.com/ela-compil/BACnet
+        description: Standalone BACnet stack for .NET to talk to BACnet devices or expose an application as one.
+      - name: BACnet4J
+        url: https://github.com/RadixIoT/BACnet4J
+        description: BACnet/IP stack written in Java.
+      - name: bacnet-js
+        url: https://github.com/bacnet-js/client
+        description: BACnet protocol stack for Node.js written in TypeScript.
+      - name: YABE
+        url: https://sourceforge.net/projects/yetanotherbacnetexplorer/
+        description: Graphical explorer for browsing, reading and writing BACnet devices over MS/TP, Ethernet and IP.
+  - title: EtherCAT and PROFINET
+    items:
+      - name: SOEM
+        url: https://github.com/OpenEtherCATsociety/SOEM
+        description: Simple open source EtherCAT master library in C.
+      - name: SOES
+        url: https://github.com/OpenEtherCATsociety/SOES
+        description: Simple open source EtherCAT slave stack in C for microcontrollers.
+      - name: IgH EtherCAT Master
+        url: https://gitlab.com/etherlab.org/ethercat
+        description: EtherCAT main device for Linux, implemented as kernel modules for real-time applications.
+      - name: EtherCrab
+        url: https://github.com/ethercrab-rs/ethercrab
+        description: Pure Rust EtherCAT main device that runs in std and no_std environments.
+      - name: pysoem
+        url: https://github.com/bnjmnp/pysoem
+        description: Cython wrapper around SOEM for writing EtherCAT master applications in Python.
+      - name: KickCAT
+        url: https://github.com/leducp/KickCAT
+        description: EtherCAT master and slave stack written in C++.
+      - name: ethercat_driver_ros2
+        url: https://github.com/ICube-Robotics/ethercat_driver_ros2
+        description: Hardware interface for integrating EtherCAT modules with ros2_control.
+      - name: p-net
+        url: https://github.com/rtlabs-com/p-net
+        description: PROFINET device stack in C for embedded devices.
+  - title: Power Grid Protocols
+    items:
+      - name: stepfunc dnp3
+        url: https://github.com/stepfunc/dnp3
+        description: DNP3 (IEEE 1815) implementation in Rust with bindings for C, C++, .NET and Java.
+      - name: libIEC61850
+        url: https://github.com/mz-automation/libiec61850
+        description: C library for IEC 61850 MMS, GOOSE and Sampled Values clients and servers.
+      - name: lib60870
+        url: https://github.com/mz-automation/lib60870
+        description: C library for the IEC 60870-5-101 and 104 telecontrol protocols used alongside DNP3 in utilities.
+      - name: lib60870.NET
+        url: https://github.com/mz-automation/lib60870.NET
+        description: C# implementation of the IEC 60870-5-101 and 104 protocols.
+      - name: c104
+        url: https://github.com/Fraunhofer-FIT-DIEN/iec104-python
+        description: Python module for simulating IEC 60870-5-104 SCADA and RTU communication.
+      - name: CoMPAS OpenSCD
+        url: https://github.com/com-pas/compas-open-scd
+        description: Browser-based editor for IEC 61850-6 substation configuration (SCL) files.
+  - title: Multi-protocol Libraries
+    items:
+      - name: Apache PLC4X
+        url: https://github.com/apache/plc4x
+        description: Libraries for Java, Go, C and Python that read and write PLCs over S7, Modbus, EtherNet/IP, ADS, OPC UA and more through one API.
+      - name: Proxus Drivers
+        url: https://github.com/proxus-io/proxus-drivers
+        description: Modbus and OPC UA client drivers for .NET, Native AOT compatible and without third-party dependencies.
+      - name: IoTClient
+        url: https://github.com/zhaopeiym/IoTClient
+        description: Library for .NET Standard covering Modbus, Siemens S7, Mitsubishi, Omron FINS and Allen-Bradley PLC communication.
+      - name: iot-communication
+        url: https://github.com/xingshuangs/iot-communication
+        description: Java library for the Siemens S7, Modbus and Mitsubishi MELSEC protocols.
+      - name: Wireshark
+        url: https://www.wireshark.org/
+        description: Packet analyzer with dissectors for Modbus, OPC UA, S7comm, EtherNet/IP, BACnet, EtherCAT, PROFINET, DNP3 and IEC 61850.
+      - name: ICSNPP
+        url: https://github.com/cisagov/ICSNPP
+        description: Zeek parsers for industrial protocols including BACnet, DNP3, EtherCAT, EtherNet/IP, Modbus, OPC UA, PROFINET and S7comm.

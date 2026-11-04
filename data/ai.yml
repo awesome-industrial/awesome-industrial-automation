@@ -1,0 +1,101 @@
+title: Industrial AI
+order: 70
+description: Machine learning on machine data, AI agents that talk to the plant, and the datasets to train them.
+sections:
+  - title: Predictive Maintenance and Anomaly Detection
+    items:
+      - name: PyOD
+        url: https://github.com/yzhao062/pyod
+        description: Python library with dozens of outlier detection algorithms under one API, from isolation forests to deep autoencoders.
+      - name: Anomalib
+        url: https://github.com/open-edge-platform/anomalib
+        description: Deep learning library for visual anomaly detection, used to train and deploy surface defect inspection models.
+      - name: Orion
+        url: https://github.com/sintel-dev/Orion
+        description: Unsupervised time series anomaly detection library from MIT with ready-made pipelines and a benchmark.
+      - name: STUMPY
+        url: https://github.com/stumpy-dev/stumpy
+        description: Matrix profile library for finding motifs, discords and regime changes in long sensor signals.
+      - name: tsfresh
+        url: https://github.com/blue-yonder/tsfresh
+        description: Extracts hundreds of time series features and keeps the relevant ones, a common first step for condition monitoring models.
+      - name: Darts
+        url: https://github.com/unit8co/darts
+        description: Python library for forecasting and anomaly detection on time series with statistical and deep learning models.
+      - name: sktime
+        url: https://github.com/sktime/sktime
+        description: Unified scikit-learn style interface for time series classification, regression, forecasting and anomaly detection.
+      - name: River
+        url: https://github.com/online-ml/river
+        description: Online machine learning in Python that updates models one sample at a time, suited to streaming sensor data and drift.
+      - name: ProgPy
+        url: https://github.com/nasa/progpy
+        description: NASA prognostics framework for physics-based and data-driven remaining useful life estimation.
+      - name: Alibi Detect
+        url: https://github.com/SeldonIO/alibi-detect
+        description: Outlier, adversarial and drift detection algorithms for tabular data, time series and images.
+      - name: tsai
+        url: https://github.com/timeseriesAI/tsai
+        description: PyTorch and fastai library of deep learning models for time series classification, regression and forecasting.
+      - name: Predictive Maintenance Toolbox
+        url: https://www.mathworks.com/products/predictive-maintenance.html
+        commercial: true
+        description: MATLAB toolbox for designing condition indicators, fault classifiers and remaining useful life models.
+  - title: AI Agents and LLMs for OT
+    items:
+      - name: Proxus Industrial MCP Server
+        url: https://github.com/proxus-io/proxus-mcp
+        description: Read-only Modbus TCP and OPC UA access for AI agents through MCP, shipped as a single Native AOT binary.
+      - name: OPC UA MCP Server
+        url: https://github.com/IndustriAgents/OPCUA-MCP
+        description: MCP server that lets AI agents browse, read and subscribe to OPC UA servers, read-only unless writes are explicitly allowed.
+      - name: kukapay OPC UA MCP
+        url: https://github.com/kukapay/opcua-mcp
+        description: Python MCP server with tools to read, write and browse nodes on an OPC UA server.
+      - name: Modbus MCP Server
+        url: https://github.com/ezhuk/modbus-mcp
+        description: Python MCP server that reads and writes Modbus registers and coils, with devices named by host, port and unit.
+      - name: S7 MCP Bridge
+        url: https://github.com/cadugrillo/s7-mcp-bridge
+        description: MCP server that connects AI agents to Siemens S7-1200 and S7-1500 PLCs through their web API.
+      - name: TwinCAT MCP Server
+        url: https://github.com/eponce00/twincat-mcp
+        description: MCP server for TwinCAT projects that builds, deploys, runs TcUnit tests and reads PLC data over ADS.
+      - name: AutoPLC
+        url: https://github.com/cangkui/AutoPLC
+        description: Research framework and benchmarks for generating vendor-specific IEC 61131-3 Structured Text with LLMs.
+  - title: Datasets
+    items:
+      - name: awesome-industrial-datasets
+        url: https://github.com/jonathanwvd/awesome-industrial-datasets
+        description: Curated collection of public industrial datasets, grouped by domain and task.
+      - name: NASA PCoE Data Set Repository
+        url: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+        description: Run-to-failure prognostics data, including the C-MAPSS turbofan, bearing, battery and milling sets.
+      - name: CWRU Bearing Data Center
+        url: https://engineering.case.edu/bearingdatacenter
+        description: Vibration data from healthy and seeded-fault ball bearings at Case Western Reserve University, a standard fault diagnosis benchmark.
+      - name: Paderborn Bearing DataCenter
+        url: https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter
+        description: Motor current and vibration data from bearings with artificial and real damage, recorded at Paderborn University.
+      - name: MVTec AD
+        url: https://www.mvtec.com/company/research/datasets/mvtec-ad
+        description: Images of industrial objects and textures with pixel-level defect annotations for unsupervised anomaly detection.
+      - name: VisA
+        url: https://github.com/amazon-science/spot-diff
+        description: Visual Anomaly dataset from Amazon with 12 object types such as PCBs and capsules, released with the SPot-the-Difference paper.
+      - name: MIMII
+        url: https://zenodo.org/records/3384388
+        description: Sound recordings of normal and malfunctioning valves, pumps, fans and slide rails from Hitachi.
+      - name: Tennessee Eastman Process Simulation Data
+        url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1
+        description: Large simulated runs of the Tennessee Eastman chemical process with normal operation and 20 fault types.
+      - name: AI4I 2020 Predictive Maintenance Dataset
+        url: https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+        description: Synthetic milling machine data with process conditions, tool wear and five labeled failure modes.
+      - name: SECOM
+        url: https://archive.ics.uci.edu/dataset/179/secom
+        description: Semiconductor production line sensor readings labeled pass or fail, a common feature selection benchmark.
+      - name: SKAB
+        url: https://github.com/waico/SKAB
+        description: Skoltech Anomaly Benchmark of sensor data from a water circulation testbed with labeled faults and changepoints.

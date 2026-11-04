@@ -1,0 +1,45 @@
+title: SCADA and HMI
+order: 40
+description: Supervisory control, operator screens and plant dashboards.
+sections:
+  - title: SCADA and HMI
+    items:
+      - name: FUXA
+        url: https://github.com/frangoteam/FUXA
+        description: Web-based process visualization and HMI editor with Modbus, OPC UA, Siemens S7, Ethernet/IP, BACnet and MQTT connectors.
+      - name: Rapid SCADA
+        url: https://github.com/RapidScada/scada-v6
+        description: Modular .NET platform for monitoring and control systems, with drivers, archives, web-based operator interface and distributed nodes.
+      - name: Scada-LTS
+        url: https://github.com/SCADA-LTS/Scada-LTS
+        description: Web-based, multi-platform SCADA system in Java, continuing the ScadaBR and Mango lineage with data sources, alarms and graphical views.
+      - name: PyScada
+        url: https://github.com/pyscada/PyScada
+        description: Django-based SCADA system with an HTML5 HMI and plugins for Modbus, OPC UA, BACnet, VISA, 1-Wire and other data sources.
+      - name: FlowFuse Dashboard
+        url: https://github.com/FlowFuse/node-red-dashboard
+        description: Set of Node-RED nodes for building operator dashboards and data entry screens, also known as Node-RED Dashboard 2.0.
+      - name: Ignition
+        url: https://inductiveautomation.com/ignition/
+        description: Industrial application platform for SCADA, HMI, alarming and historian, licensed per server with unlimited tags and clients.
+        commercial: true
+  - title: Dashboards and Visualization
+    items:
+      - name: Grafana
+        url: https://github.com/grafana/grafana
+        description: Dashboard and alerting platform for time series data from historians and databases, with a Canvas panel for simple P&ID-style views.
+      - name: Business Forms
+        url: https://github.com/grafana/business-forms
+        description: Grafana panel for writing values back to a database or API, useful for setpoints, manual entries and shift data.
+      - name: Business Charts
+        url: https://github.com/grafana/business-charts
+        description: Grafana panel that renders Apache ECharts visualizations such as gauges, Sankey diagrams and custom charts from query data.
+      - name: ACE.SVG
+        url: https://github.com/ACE-IoT-Solutions/ace-svg-react
+        description: Grafana panel that animates your own SVG drawings with live query data through scripted render functions, for plant schematics and mimics.
+      - name: JointJS
+        url: https://github.com/clientIO/joint
+        description: SVG diagramming library for JavaScript, used to build interactive P&ID and SCADA/HMI views in web applications.
+      - name: draw.io
+        url: https://github.com/jgraph/drawio
+        description: Diagram editor with built-in P&ID, electrical and process engineering shape libraries, usable offline or self-hosted.

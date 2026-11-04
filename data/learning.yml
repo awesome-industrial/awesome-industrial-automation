@@ -1,0 +1,183 @@
+title: Learning and Community
+order: 90
+description: Standards, books, courses and the places where automation engineers talk shop.
+sections:
+  - title: Standards
+    items:
+      - name: ISA-95
+        url: https://www.isa.org/standards-and-publications/isa-standards/isa-95-standard
+        description: Enterprise-control system integration standard (IEC 62264) that defines the levels and data models between ERP, MES and control.
+      - name: ISA-88
+        url: https://www.isa.org/standards-and-publications/isa-standards/isa-88-standards
+        description: Batch control standard that defines the physical, procedural and recipe models used in batch process automation.
+      - name: ISA-101
+        url: https://www.isa.org/standards-and-publications/isa-standards/isa-101-standards
+        description: Standard for designing, building and maintaining human-machine interfaces in process automation.
+      - name: IEC 61131-3 at PLCopen
+        url: https://www.plcopen.org/iec-61131-3
+        description: Overview of the PLC programming languages standard (ST, LD, FBD, SFC) and the PLCopen work built on it.
+      - name: IEC 61499
+        url: https://webstore.iec.ch/en/publication/5506
+        description: Function block architecture for distributed, event-driven control applications across many devices.
+      - name: ISA/IEC 62443
+        url: https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards
+        description: Series of standards for the security of industrial automation and control systems, from risk assessment to component requirements.
+      - name: OPC UA Online Reference
+        url: https://reference.opcfoundation.org/
+        description: Free browsable edition of the OPC UA specifications and companion specifications from the OPC Foundation.
+      - name: Sparkplug Specification
+        url: https://sparkplug.eclipse.org/specification/
+        description: Eclipse specification for MQTT topic namespace, payload encoding and state management in industrial systems.
+      - name: Asset Administration Shell Specifications
+        url: https://industrialdigitaltwin.org/en/content-hub/aasspecifications
+        description: IDTA specifications for the Asset Administration Shell metamodel, API, packaging and security.
+  - title: Books
+    items:
+      - name: "IEC 61131-3: Programming Industrial Automation Systems"
+        url: https://link.springer.com/book/10.1007/978-3-642-12015-2
+        description: Karl-Heinz John and Michael Tiegelkamp explain the languages, data types and program organization of the PLC standard (Springer).
+      - name: Modelling Control Systems Using IEC 61499
+        url: https://digital-library.theiet.org/content/books/ce/pbce095e
+        description: Alois Zoitl and Robert Lewis introduce function blocks and distributed control design with IEC 61499 (IET).
+      - name: OPC Unified Architecture
+        url: https://link.springer.com/book/10.1007/978-3-540-68899-0
+        description: Wolfgang Mahnke, Stefan-Helmut Leitner and Matthias Damm cover the OPC UA address space, services and information modeling (Springer).
+      - name: Industrial Process Automation Systems
+        url: https://www.sciencedirect.com/book/9780128009390/industrial-process-automation-systems
+        description: B. R. Mehta and Y. J. Reddy on the design and implementation of DCS, PLC and SCADA based process automation (Elsevier).
+      - name: Practical SCADA for Industry
+        url: https://www.sciencedirect.com/book/9780750658058/practical-scada-for-industry
+        description: David Bailey and Edwin Wright on SCADA architecture, telemetry, communications and system design (Newnes).
+      - name: "Industry 4.0: The Industrial Internet of Things"
+        url: https://link.springer.com/book/10.1007/978-1-4842-2047-4
+        description: Alasdair Gilchrist on IIoT architecture, protocols, middleware and security in manufacturing (Apress).
+      - name: Industrial Network Security
+        url: https://www.sciencedirect.com/book/9780124201149/industrial-network-security
+        description: Eric Knapp and Joel Thomas Langill on securing networks for SCADA, smart grid and other control systems (Syngress).
+      - name: Industrial Cybersecurity
+        url: https://www.packtpub.com/en-us/product/industrial-cybersecurity-9781800202092
+        description: Pascal Ackerman on monitoring and defending ICS environments, second edition (Packt).
+      - name: Practical Industrial Internet of Things Security
+        url: https://www.packtpub.com/en-us/product/practical-industrial-internet-of-things-security-9781788832687
+        description: Sravani Bhattacharjee on securing connected industrial devices, networks and cloud platforms (Packt).
+      - name: Feedback Systems
+        url: https://fbswiki.org/
+        description: Karl Johan Åström and Richard Murray's introduction to feedback control, free to read online (Princeton University Press).
+  - title: Courses and Tutorials
+    items:
+      - name: Socratic Instrumentation
+        url: https://www.ibiblio.org/kuphaldt/socratic/sinst/
+        description: Free instrumentation and process control course by Tony Kuphaldt, including the Lessons In Industrial Instrumentation textbook.
+      - name: Inductive University
+        url: https://inductiveuniversity.com/
+        description: Free video courses on SCADA, HMI and MES development with Ignition.
+      - name: Siemens Automation Cooperates with Education
+        url: https://www.siemens.com/sce
+        description: Siemens education program with free learn and training documents for PLC, HMI and drive programming in TIA Portal.
+      - name: CISA ICS Virtual Learning Portal
+        url: https://ics-training.inl.gov/
+        description: Free online ICS cybersecurity courses from CISA and Idaho National Laboratory.
+      - name: Control Tutorials for MATLAB and Simulink
+        url: https://ctms.engin.umich.edu/CTMS/
+        description: University of Michigan tutorials on modeling, PID, root locus, frequency and state-space design with worked examples.
+      - name: Control Bootcamp
+        url: https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m
+        description: Steve Brunton's video lecture series on state-space control, LQR and Kalman filters.
+      - name: MQTT Essentials
+        url: https://www.hivemq.com/mqtt/
+        description: HiveMQ tutorial series on MQTT concepts, from publish and subscribe to QoS, retained messages and sessions.
+  - title: YouTube Channels
+    items:
+      - name: RealPars
+        url: https://www.youtube.com/@RealPars
+        description: Animated explainers on PLCs, SCADA, instrumentation and industrial networks.
+      - name: Tim Wilborne
+        url: https://www.youtube.com/@TimWilborne
+        description: PLC programming and electrical troubleshooting for maintenance technicians.
+      - name: PLC Professor
+        url: https://www.youtube.com/@PLCProfessor
+        description: Lessons on industrial control systems, PLC programming and the electrical components around them.
+      - name: Shane Welcher
+        url: https://www.youtube.com/@ShaneWelcher
+        description: Allen-Bradley PLC and FactoryTalk HMI programming walkthroughs, including emulation without hardware.
+      - name: Electrical Automation Hands-On
+        url: https://www.youtube.com/@electricalautomation
+        description: Hands-on projects with Siemens, Allen-Bradley, Omron and Beckhoff controllers.
+      - name: SolisPLC
+        url: https://www.youtube.com/@SolisPLC
+        description: PLC programming and automation tutorials for engineers and technicians.
+      - name: 4.0 Solutions
+        url: https://www.youtube.com/@4.0Solutions
+        description: Walker Reynolds on Industry 4.0 architecture, the Unified Namespace and IIoT system design.
+      - name: Inductive Automation
+        url: https://www.youtube.com/@InductiveAutomation
+        description: Ignition tutorials, webinars and conference talks on SCADA and IIoT projects.
+  - title: Podcasts
+    items:
+      - name: The Automation Podcast
+        url: https://theautomationblog.com/podcast/
+        description: Shawn Tierney's show with product demos and interviews about PLCs, HMIs and automation technology.
+      - name: Industrial Talk
+        url: https://industrialtalk.com/
+        description: Scott MacKenzie interviews people across manufacturing, automation and industrial technology.
+      - name: Automation Ladies
+        url: https://automationladies.io/
+        description: Interviews with people working in industrial automation, hosted by women in the field.
+      - name: Manufacturing Happy Hour
+        url: https://podcasts.apple.com/us/podcast/manufacturing-happy-hour/id1484626862
+        description: Conversations with manufacturing leaders about plant operations, technology and workforce.
+      - name: Unsolicited Response
+        url: https://podcasts.apple.com/us/podcast/unsolicited-response/id1240062226
+        description: Dale Peterson, founder of the S4 conference, on ICS security news and interviews.
+      - name: The Industrial Security Podcast
+        url: https://podcasts.apple.com/us/podcast/the-industrial-security-podcast/id1441395559
+        description: Andrew Ginter and Nate Nelson of Waterfall Security on OT security incidents, standards and engineering.
+      - name: Industrial IoT Spotlight
+        url: https://podcasts.apple.com/us/podcast/industrial-iot-spotlight/id1228185407
+        description: Erik Walenza of IoT ONE interviews practitioners about industrial IoT case studies.
+  - title: Communities
+    items:
+      - name: r/PLC
+        url: https://www.reddit.com/r/PLC/
+        description: Large subreddit for PLC programmers, controls engineers and technicians.
+      - name: r/SCADA
+        url: https://www.reddit.com/r/SCADA/
+        description: Subreddit for SCADA, HMI and control system integration questions.
+      - name: r/IndustrialMaintenance
+        url: https://www.reddit.com/r/IndustrialMaintenance/
+        description: Subreddit for maintenance technicians on troubleshooting machines, drives and controls.
+      - name: PLCtalk
+        url: https://www.plctalk.net/forums/
+        description: Long-running forum on PLC programming, HMIs and industrial networking across vendors.
+      - name: MrPLC
+        url: https://forums.mrplc.com/
+        description: Forum and download area for PLC and HMI programming, organized by vendor.
+      - name: Control.com Forums
+        url: https://control.com/forums/
+        description: Discussion forum on automation, process control, instrumentation and industrial networks.
+      - name: Inductive Automation Forum
+        url: https://forum.inductiveautomation.com/
+        description: Official community forum for Ignition users and developers.
+      - name: CODESYS Forge
+        url: https://forge.codesys.com/forge/talk/
+        description: Community discussion forum for CODESYS PLC programming.
+  - title: Related Lists
+    items:
+      - name: awesome-iot
+        url: https://github.com/HQarroum/awesome-iot
+        description: Curated list of IoT projects, protocols, platforms and resources.
+      - name: awesome-mqtt
+        url: https://github.com/awesome-mqtt/awesome-mqtt
+        description: Curated list of MQTT brokers, clients, tools and resources.
+      - name: awesome-opcua
+        url: https://github.com/iswunistuttgart/awesome-opcua
+        description: Curated list of OPC UA SDKs, tools and resources from the University of Stuttgart ISW.
+      - name: awesome-digital-twins
+        url: https://github.com/edt-community/awesome-digital-twins
+        description: Curated list of digital twin papers, platforms, standards and tools.
+      - name: awesome-TS-anomaly-detection
+        url: https://github.com/rob-med/awesome-TS-anomaly-detection
+        description: List of tools and datasets for anomaly detection on time series data.
+      - name: awesome-time-series
+        url: https://github.com/lmmentel/awesome-time-series
+        description: Resources for time series analysis, forecasting, databases and visualization.

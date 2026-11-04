@@ -1,0 +1,114 @@
+title: Industrial Data
+order: 60
+description: Storing, modeling and simulating plant data.
+sections:
+  - title: Historians and Time Series Databases
+    items:
+      - name: TimescaleDB
+        url: https://github.com/timescale/timescaledb
+        description: PostgreSQL extension for time series with compression, continuous aggregates and retention policies.
+      - name: InfluxDB
+        url: https://github.com/influxdata/influxdb
+        description: Time series database for metrics and sensor data, often paired with Telegraf for collection from OPC UA, Modbus and MQTT.
+      - name: QuestDB
+        url: https://github.com/questdb/questdb
+        description: Column-oriented time series database with SQL, fast ingestion over the InfluxDB line protocol and PostgreSQL wire compatibility.
+      - name: TDengine
+        url: https://github.com/taosdata/TDengine
+        description: Time series database built for industrial IoT, with built-in caching, stream processing and data subscription.
+      - name: Apache IoTDB
+        url: https://github.com/apache/iotdb
+        description: Time series database for industrial devices with a tree-shaped data model, edge-to-cloud sync and compact storage.
+      - name: CrateDB
+        url: https://github.com/crate/crate
+        description: Distributed SQL database for large volumes of machine and sensor data, with full-text search and dynamic schemas.
+      - name: openHistorian
+        url: https://github.com/GridProtectionAlliance/openHistorian
+        description: Time series historian from the Grid Protection Alliance, used for high-rate synchrophasor and SCADA data in power systems.
+      - name: AVEVA PI System
+        url: https://www.aveva.com/en/products/aveva-pi-system/
+        commercial: true
+        description: Plant historian formerly known as OSIsoft PI, a common reference point for collecting and contextualizing process data.
+  - title: Information Models
+    items:
+      - name: Eclipse BaSyx Java Server SDK
+        url: https://github.com/eclipse-basyx/basyx-java-server-sdk
+        description: Java server and client SDK for Asset Administration Shell V3 repositories, registries and submodel services.
+      - name: Eclipse BaSyx Go Components
+        url: https://github.com/eclipse-basyx/basyx-go-components
+        description: Ready-to-run Go implementations of the Asset Administration Shell Part 2 API servers, shipped as Docker images.
+      - name: Eclipse BaSyx Python SDK
+        url: https://github.com/eclipse-basyx/basyx-python-sdk
+        description: Python library to create, serialize and serve Asset Administration Shells and submodels.
+      - name: Eclipse BaSyx AAS Web UI
+        url: https://github.com/eclipse-basyx/basyx-aas-web-ui
+        description: Web interface to browse, edit and visualize Asset Administration Shells on any server that implements the AAS API.
+      - name: AASX Package Explorer
+        url: https://github.com/eclipse-aaspe/package-explorer
+        description: Windows viewer and editor for AASX packages, the file format of the Asset Administration Shell.
+      - name: AASX Server
+        url: https://github.com/eclipse-aaspe/server
+        description: C# server that hosts AASX packages and exposes them over the Asset Administration Shell REST API.
+      - name: FA³ST Service
+        url: https://github.com/FraunhoferIOSB/FAAAST-Service
+        description: Java implementation of an Asset Administration Shell server from Fraunhofer IOSB, with OPC UA and MQTT endpoints and asset connectors.
+      - name: Eclipse Semantic Modeling Framework SDK
+        url: https://github.com/eclipse-esmf/esmf-sdk
+        description: Java SDK and CLI for SAMM aspect models, generating code, JSON schemas, documentation and AAS submodels from them.
+      - name: UA Cloud Library
+        url: https://github.com/OPCFoundation/UA-CloudLibrary
+        description: Reference implementation of the OPC Foundation service that stores and serves OPC UA information models through a REST interface.
+      - name: UaModeler
+        url: https://www.unified-automation.com/products/development-tools/uamodeler.html
+        commercial: true
+        description: Graphical editor for designing OPC UA information models and generating NodeSet2 XML and server code.
+      - name: B2MML
+        url: https://github.com/MESAInternational/B2MML-BatchML
+        description: XML schemas from MESA International that implement the ISA-95 and ISA-88 models for exchanging data between ERP, MES and control systems.
+      - name: Manufacturing Ontologies
+        url: https://github.com/digitaltwinconsortium/ManufacturingOntologies
+        description: ISA-95 manufacturing ontology expressed as W3C Web of Things descriptions, with a reference solution that feeds it from OPC UA.
+      - name: Digital Twins Definition Language
+        url: https://github.com/Azure/opendigitaltwins-dtdl
+        description: JSON-LD based language from Microsoft for describing the telemetry, properties and relationships of digital twins.
+  - title: Digital Twins and Simulation
+    items:
+      - name: Eclipse Ditto
+        url: https://github.com/eclipse-ditto/ditto
+        description: Framework that keeps a digital twin of each device in the cloud and exposes its state through HTTP, WebSocket, MQTT and AMQP APIs.
+      - name: OpenTwins
+        url: https://github.com/ertis-research/opentwins
+        description: Composable digital twin platform built on Eclipse Ditto, Grafana and other open components, from the University of Malaga.
+      - name: Prosys OPC UA Simulation Server
+        url: https://www.prosysopc.com/products/opc-ua-simulation-server/
+        commercial: true
+        description: Free OPC UA server that publishes simulated signals for testing clients without a real device.
+      - name: Modbus TCP Server
+        url: https://github.com/cybcon/modbus-server
+        description: Configurable Modbus TCP server in a Docker image for simulating devices and debugging clients.
+      - name: diagslave
+        url: https://www.modbusdriver.com/diagslave.html
+        commercial: true
+        description: Free command-line Modbus RTU, ASCII and TCP slave simulator for testing masters on Windows and Linux.
+      - name: Factory I/O
+        url: https://factoryio.com/
+        commercial: true
+        description: Simulated 3D factory with conveyors, sensors and actuators that connects to real or simulated PLCs for training and virtual commissioning.
+      - name: OpenModelica
+        url: https://github.com/OpenModelica/OpenModelica
+        description: Modelica modeling and simulation environment for multi-domain physical systems such as machines, drives and process plants.
+      - name: Modelica Standard Library
+        url: https://github.com/modelica/ModelicaStandardLibrary
+        description: Free library of mechanical, electrical, thermal, fluid and control components for building Modelica plant models.
+      - name: FMPy
+        url: https://github.com/CATIA-Systems/FMPy
+        description: Python library to simulate and validate Functional Mock-up Units exported from Modelica, Simulink and other tools.
+      - name: DWSIM
+        url: https://sourceforge.net/projects/dwsim/
+        description: Steady-state and dynamic chemical process simulator with a CAPE-OPEN compliant flowsheet editor.
+      - name: IDAES
+        url: https://github.com/IDAES/idaes-pse
+        description: Python process systems engineering framework for modeling, simulating and optimizing chemical and energy processes.
+      - name: SimPy
+        url: https://gitlab.com/team-simpy/simpy
+        description: Discrete-event simulation library for Python, used to model production lines, buffers and resource use.

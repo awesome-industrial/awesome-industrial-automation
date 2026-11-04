@@ -1,0 +1,114 @@
+title: Edge and Integration
+order: 20
+description: Gateways, brokers and platforms that move plant data from machines to the systems that use it.
+sections:
+  - title: Edge Platforms and Gateways
+    items:
+      - name: Node-RED
+        url: https://github.com/node-red/node-red
+        description: Flow-based low-code tool for event-driven applications, with built-in MQTT and community nodes for Modbus, OPC UA and S7.
+      - name: FlowFuse
+        url: https://github.com/FlowFuse/flowfuse
+        description: Platform for deploying, managing and scaling Node-RED instances across edge devices and teams.
+      - name: Eclipse Kura
+        url: https://github.com/eclipse-kura/kura
+        description: Java and OSGi framework for IoT edge gateways with field protocol drivers, cloud connectors and remote management.
+      - name: Neuron
+        url: https://github.com/emqx/neuron
+        description: Industrial connectivity server that collects device data and publishes it over MQTT, with Modbus drivers in the open source edition.
+      - name: Telegraf
+        url: https://github.com/influxdata/telegraf
+        description: Plugin-driven data collection agent with inputs for Modbus, OPC UA, Siemens S7 and MQTT.
+      - name: ThingsBoard IoT Gateway
+        url: https://github.com/thingsboard/thingsboard-gateway
+        description: Python gateway with connectors for Modbus, OPC UA, BACnet, S7, MQTT and more that forwards data to ThingsBoard.
+      - name: EdgeX Foundry
+        url: https://github.com/edgexfoundry/edgex-go
+        description: Vendor-neutral microservice framework for edge data collection, with device services for Modbus, BACnet, MQTT and more.
+      - name: Apache StreamPipes
+        url: https://github.com/apache/streampipes
+        description: Self-service toolbox to connect, analyze and explore industrial IoT data streams, with adapters for PLCs and OPC UA.
+      - name: benthos-umh
+        url: https://github.com/united-manufacturing-hub/benthos-umh
+        description: Stream processor with inputs for OPC UA, Siemens S7, Modbus, EtherNet/IP, Beckhoff ADS and Sparkplug B.
+      - name: Fledge
+        url: https://github.com/fledge-iot/fledge
+        description: Edge platform that collects, processes and forwards sensor and machine data through pluggable south and north services.
+      - name: HiveMQ Edge
+        url: https://github.com/hivemq/hivemq-edge
+        description: Edge gateway and MQTT broker that translates OPC UA, Modbus, EtherNet/IP and S7 data into MQTT.
+      - name: Ignition Edge
+        url: https://inductiveautomation.com/ignition/edge
+        description: Edge editions of the Ignition platform for device connectivity, local HMI and MQTT publishing at the machine.
+        commercial: true
+      - name: Kepware Server
+        url: https://www.velotic.com/products/kepware/kepware-server
+        description: Windows connectivity server with a large library of device drivers that exposes PLC data over OPC UA, OPC DA and MQTT.
+        commercial: true
+      - name: Litmus Edge
+        url: https://litmus.io/litmus-edge
+        description: Industrial edge platform for collecting, normalizing and analyzing machine data on site.
+        commercial: true
+      - name: Proxus
+        url: https://proxus.io/platform/
+        description: Industrial data platform that connects PLCs, CNCs and OPC UA servers, models plant data in a Unified Namespace and delivers it to databases and AI.
+        commercial: true
+  - title: Message Brokers
+    items:
+      - name: Eclipse Mosquitto
+        url: https://github.com/eclipse-mosquitto/mosquitto
+        description: Lightweight MQTT 5.0, 3.1.1 and 3.1 broker that ships with the mosquitto_pub and mosquitto_sub clients.
+      - name: EMQX
+        url: https://github.com/emqx/emqx
+        description: Distributed MQTT 5.0 broker with a rule engine and data integrations, released under the Business Source License.
+      - name: HiveMQ Community Edition
+        url: https://github.com/hivemq/hivemq-community-edition
+        description: Java-based MQTT 3.x and 5 broker that forms the open source core of the HiveMQ platform.
+      - name: NanoMQ
+        url: https://github.com/nanomq/nanomq
+        description: Lightweight MQTT broker and messaging bus for edge devices, written in C.
+      - name: VerneMQ
+        url: https://github.com/vernemq/vernemq
+        description: Distributed MQTT broker built on Erlang/OTP.
+      - name: rumqtt
+        url: https://github.com/bytebeamio/rumqtt
+        description: MQTT client library and embeddable broker written in Rust.
+      - name: Moquette
+        url: https://github.com/moquette-io/moquette
+        description: Lightweight Java MQTT broker that can run standalone or embedded in an application.
+      - name: Mochi MQTT
+        url: https://github.com/mochi-mqtt/server
+        description: Embeddable MQTT v5 broker written in Go.
+      - name: Aedes
+        url: https://github.com/moscajs/aedes
+        description: Barebone MQTT broker for Node.js that runs on any stream server.
+      - name: Apache BifroMQ
+        url: https://github.com/apache/bifromq
+        description: Distributed, multi-tenant MQTT broker written in Java.
+      - name: FlashMQ
+        url: https://github.com/halfgaar/FlashMQ
+        description: Multi-threaded MQTT broker in C++ designed to make use of many CPU cores.
+  - title: Unified Namespace
+    items:
+      - name: United Manufacturing Hub
+        url: https://github.com/united-manufacturing-hub/united-manufacturing-hub
+        description: Open source stack for ingesting, contextualizing and storing factory data in a Unified Namespace.
+      - name: AMRC Connectivity Stack
+        url: https://github.com/AMRC-FactoryPlus/amrc-connectivity-stack
+        description: Open source implementation of the Factory+ framework, built on MQTT Sparkplug with edge cluster management.
+      - name: mqtt-spb-wrapper
+        url: https://github.com/javier-fg/mqtt-spb-wrapper
+        description: Python wrapper around Eclipse Tahu for building Sparkplug B edge nodes, devices and host applications.
+      - name: MQTT Explorer
+        url: https://github.com/thomasnordquist/MQTT-Explorer
+        description: MQTT client that shows the topics of a broker as a structured, browsable tree.
+      - name: Grafana MQTT Data Source
+        url: https://github.com/grafana/mqtt-datasource
+        description: Grafana plugin that streams live data from any MQTT broker into dashboards.
+      - name: i3X
+        url: https://github.com/cesmii/i3X
+        description: CESMII specification for a common API to access contextualized manufacturing information platforms.
+      - name: HighByte Intelligence Hub
+        url: https://www.highbyte.com/intelligence-hub
+        description: Industrial DataOps software for modeling OT data and publishing it to a Unified Namespace and other targets.
+        commercial: true

@@ -1,0 +1,104 @@
+title: Control and PLC Programming
+order: 30
+description: Soft PLCs, IEC 61131-3 and IEC 61499 tooling, motion control, CNC and industrial robotics.
+sections:
+  - title: PLC Runtimes and IDEs
+    items:
+      - name: OpenPLC Runtime
+        url: https://github.com/Autonomy-Logic/openplc-runtime
+        description: Headless soft PLC that runs IEC 61131-3 programs on standard computers with deterministic scan cycles, controlled from OpenPLC Editor.
+      - name: OpenPLC Editor
+        url: https://github.com/Autonomy-Logic/openplc-editor
+        description: Cross-platform IEC 61131-3 IDE for writing ladder, structured text and other programs and deploying them to OpenPLC runtimes.
+      - name: Beremiz
+        url: https://github.com/beremiz/beremiz
+        description: Integrated IEC 61131-3 development environment and soft PLC runtime for machine automation, built on the MATIEC compiler.
+      - name: Eclipse 4diac IDE
+        url: https://github.com/eclipse-4diac/4diac-ide
+        description: Engineering tool for distributed control applications based on the IEC 61499 function block standard.
+      - name: Eclipse 4diac FORTE
+        url: https://github.com/eclipse-4diac/4diac-forte
+        description: Small, portable IEC 61499 runtime environment for embedded controllers and PCs, programmed from 4diac IDE.
+      - name: ProviewR
+        url: https://www.proviewr.se/
+        description: Integrated process control and automation system for Linux PCs, originally developed by Mandator and SSAB Oxelösund.
+      - name: CODESYS
+        url: https://www.codesys.com/
+        description: Vendor-independent IEC 61131-3 development system and soft PLC runtime used by hundreds of controller manufacturers.
+        commercial: true
+  - title: IEC 61131-3 Tooling
+    items:
+      - name: MATIEC
+        url: https://github.com/beremiz/matiec
+        description: IEC 61131-3 compiler that translates structured text, instruction list and SFC programs to C, used by Beremiz and OpenPLC.
+      - name: RuSTy
+        url: https://github.com/PLC-lang/rusty
+        description: Structured text compiler written in Rust that uses LLVM to produce native code for many platforms.
+      - name: IEC Checker
+        url: https://github.com/iec-checker/iec-checker
+        description: Static analyzer for IEC 61131-3 programs that finds bugs and enforces the PLCopen coding guidelines.
+      - name: PLCverif
+        url: https://gitlab.com/plcverif-oss
+        description: Formal verification tool from CERN that model checks PLC programs, including Siemens STEP 7 SCL and STL code.
+      - name: blark
+        url: https://github.com/klauer/blark
+        description: Python parser for Beckhoff TwinCAT structured text and project files, with an experimental code formatter.
+      - name: TcUnit
+        url: https://github.com/tcunit/TcUnit
+        description: Unit testing framework in the xUnit style for Beckhoff TwinCAT 3 PLC code.
+      - name: CfUnit
+        url: https://forge.codesys.com/lib/counit/home/Home/
+        description: Unit testing library for CODESYS projects, ported from TcUnit.
+      - name: vscode-st
+        url: https://github.com/Serhioromano/vscode-st
+        description: Visual Studio Code extension with syntax highlighting, snippets and a beta formatter for IEC 61131-3 structured text.
+      - name: Twinpack
+        url: https://github.com/Zeugwerk/Twinpack
+        description: Package manager for TwinCAT libraries with IDE integration, using its own server or any NuGet feed as package source.
+      - name: l5x
+        url: https://github.com/jvalenzuela/l5x
+        description: Python module for reading and modifying Rockwell RSLogix and Studio 5000 L5X export files.
+      - name: OSCAT
+        url: https://www.oscat.de/
+        description: Open source IEC 61131-3 function block libraries for building automation, control engineering and general PLC tasks.
+  - title: Motion, CNC and Robotics
+    items:
+      - name: LinuxCNC
+        url: https://github.com/LinuxCNC/linuxcnc
+        description: Real-time machine controller for mills, lathes, plasma and laser cutters, robot arms and hexapods, running on Linux.
+      - name: grblHAL
+        url: https://github.com/grblHAL/core
+        description: G-code interpreter and CNC motion controller for 32-bit microcontrollers, with a hardware abstraction layer and plugin system.
+      - name: Ruckig
+        url: https://github.com/pantor/ruckig
+        description: Real-time, jerk-limited, time-optimal trajectory generation library for robots and machines, in C++ and Python.
+      - name: ROS-Industrial
+        url: https://rosindustrial.org/
+        description: Open source project that extends ROS to industrial robots and manufacturing, with drivers, planners and training.
+      - name: MoveIt 2
+        url: https://github.com/moveit/moveit2
+        description: Motion planning, manipulation and collision checking framework for robot arms on ROS 2.
+      - name: ros2_control
+        url: https://github.com/ros-controls/ros2_control
+        description: Hardware abstraction and real-time controller framework for robots and actuators in ROS 2.
+      - name: Tesseract
+        url: https://github.com/tesseract-robotics/tesseract
+        description: Lightweight motion planning framework for industrial robot applications, with a ROS-agnostic core and Python bindings.
+      - name: Universal Robots ROS 2 Driver
+        url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
+        description: Official ROS 2 driver for Universal Robots CB3 and e-Series collaborative arms.
+      - name: FANUC ROS 2 Driver
+        url: https://github.com/FANUC-CORPORATION/fanuc_driver
+        description: Official ROS 2 driver from FANUC for controlling and monitoring FANUC industrial robots.
+      - name: KUKA ROS 2 Drivers
+        url: https://github.com/kroshu/kuka_drivers
+        description: ROS 2 drivers for KUKA robots running KSS, iiQKA or Sunrise controllers.
+      - name: MotoROS2
+        url: https://github.com/Yaskawa-Global/motoros2
+        description: ROS 2 interface that runs on Yaskawa Motoman robot controllers, built on micro-ROS.
+      - name: Open-RMF
+        url: https://github.com/open-rmf/rmf
+        description: Framework for coordinating fleets of mobile robots from different vendors with shared doors, lifts and traffic lanes.
+      - name: OpenPnP
+        url: https://github.com/openpnp/openpnp
+        description: Machine control software and hardware designs for SMT pick and place machines, with vision-based part alignment.

@@ -1,0 +1,60 @@
+title: Manufacturing Operations
+order: 50
+description: Production management, OEE, maintenance and quality on the shop floor.
+sections:
+  - title: MES and Production
+    items:
+      - name: qcadoo MES
+        url: https://github.com/qcadoo/mes
+        description: Web-based production management system for small and medium manufacturers, covering orders, technologies, planning and shop floor tracking.
+      - name: Carbon
+        url: https://github.com/crbnos/carbon
+        description: Manufacturing ERP, MRP, MES and QMS in one system, with quoting, shop floor execution, quality and lot and serial traceability.
+      - name: OpenMES
+        url: https://github.com/Mes-Open/OpenMes
+        description: Self-hosted MES for small and mid-sized discrete and batch manufacturers, with work orders, routings, material lots, downtime and tablet terminals.
+      - name: Odoo Manufacturing
+        url: https://www.odoo.com/app/manufacturing
+        description: Manufacturing app of the open source Odoo suite, with bills of materials, work orders, work centers and MRP.
+      - name: ERPNext
+        url: https://github.com/frappe/erpnext
+        description: Open source ERP whose manufacturing module covers bills of materials, work orders, job cards, production planning and subcontracting.
+      - name: frePPLe
+        url: https://github.com/frePPLe/frepple
+        description: Demand forecasting and advanced planning and scheduling tool for manufacturing companies.
+      - name: InvenTree
+        url: https://github.com/inventree/InvenTree
+        description: Inventory and parts management system with bills of materials, build orders, stock tracking and a plugin API.
+      - name: Point85 OEE
+        url: https://github.com/point85/OEE-Designer
+        description: OEE data collection and calculation applications that resolve OPC UA, OPC DA, MQTT, Modbus and database events into availability, performance and quality.
+  - title: Maintenance
+    items:
+      - name: Atlas CMMS
+        url: https://github.com/Grashjs/cmms
+        description: Self-hosted maintenance management system with web and mobile apps for work orders, preventive maintenance, assets and spare parts.
+      - name: openMAINT
+        url: https://www.openmaint.org/
+        description: Asset and maintenance management system for buildings, plants and infrastructure, built on the CMDBuild framework.
+      - name: Odoo Maintenance
+        url: https://www.odoo.com/app/maintenance
+        description: Maintenance app of the open source Odoo suite, with equipment records, corrective and preventive requests and a maintenance calendar.
+      - name: IBM Maximo
+        url: https://www.ibm.com/products/maximo
+        description: Enterprise asset management suite for asset registers, work management, and preventive and condition-based maintenance.
+        commercial: true
+  - title: Quality
+    items:
+      - name: qcc
+        url: https://github.com/luca-scr/qcc
+        description: R package for statistical quality control charts, process capability analysis, and Pareto and cause-and-effect diagrams.
+      - name: SENAITE
+        url: https://github.com/senaite/senaite.core
+        description: Laboratory information management system for sample tracking, analyses and results, used in quality control labs.
+      - name: OpenRegulatory Templates
+        url: https://github.com/openregulatory/templates
+        description: Free document templates for a quality management system under ISO 13485, IEC 62304, ISO 14971 and IEC 62366.
+      - name: Minitab
+        url: https://www.minitab.com/
+        description: Statistical software for SPC, capability analysis, measurement system analysis and design of experiments.
+        commercial: true
