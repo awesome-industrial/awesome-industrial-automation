@@ -284,6 +284,7 @@ _Supervisory control, operator screens and plant dashboards._
 - [draw.io](https://github.com/jgraph/drawio) - Diagram editor with built-in P&ID, electrical and process engineering shape libraries, usable offline or self-hosted.
 - [Grafana](https://github.com/grafana/grafana) - Dashboard and alerting platform for time series data from historians and databases, with a Canvas panel for simple P&ID-style views.
 - [JointJS](https://github.com/clientIO/joint) - SVG diagramming library for JavaScript, used to build interactive P&ID and SCADA/HMI views in web applications.
+- [meta2d.js](https://github.com/le5le-com/meta2d.js) - Data-driven 2D engine for web SCADA mimics, process diagrams and control room displays.
 
 ## Manufacturing Operations
 

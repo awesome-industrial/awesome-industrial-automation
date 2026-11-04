@@ -43,3 +43,6 @@ sections:
       - name: draw.io
         url: https://github.com/jgraph/drawio
         description: Diagram editor with built-in P&ID, electrical and process engineering shape libraries, usable offline or self-hosted.
+      - name: meta2d.js
+        url: https://github.com/le5le-com/meta2d.js
+        description: Data-driven 2D engine for web SCADA mimics, process diagrams and control room displays.
