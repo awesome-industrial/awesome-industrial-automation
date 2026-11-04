@@ -1,0 +1,34 @@
+name: discover
+
+# Every Thursday: active projects on industrial topics that are not on the list, as one issue for review.
+on:
+  schedule:
+    - cron: "0 7 * * 4"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  candidates:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install pyyaml==6.0.2
+      - name: Search
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/discover.py > candidates.md
+      - name: Replace last week's issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create candidates --color 0e8a16 --description "Weekly discovery" 2> /dev/null || true
+          for n in $(gh issue list --label candidates --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --reason "not planned" --comment "Replaced by this week's list."
+          done
+          gh issue create --title "New candidates, week of $(date +%Y-%m-%d)" --label candidates --body-file candidates.md
