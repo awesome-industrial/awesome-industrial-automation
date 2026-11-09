@@ -13,6 +13,9 @@ sections:
       - name: Scada-LTS
         url: https://github.com/SCADA-LTS/Scada-LTS
         description: Web-based, multi-platform SCADA system in Java, continuing the ScadaBR and Mango lineage with data sources, alarms and graphical views.
+      - name: json-scada
+        url: https://github.com/riclolsen/json-scada
+        description: Portable SCADA and gateway platform built around MongoDB, with IEC 60870-5, DNP3, Modbus, OPC UA and MQTT protocol drivers.
       - name: PyScada
         url: https://github.com/pyscada/PyScada
         description: Django-based SCADA system with an HTML5 HMI and plugins for Modbus, OPC UA, BACnet, VISA, 1-Wire and other data sources.

@@ -13,6 +13,9 @@ sections:
       - name: Eclipse Kura
         url: https://github.com/eclipse-kura/kura
         description: Java and OSGi framework for IoT edge gateways with field protocol drivers, cloud connectors and remote management.
+      - name: ThingsGateway
+        url: https://github.com/ThingsGateway/ThingsGateway
+        description: Cross-platform .NET 8 gateway for edge data acquisition with PLC, Modbus and OPC UA drivers and a web configuration interface.
       - name: Neuron
         url: https://github.com/emqx/neuron
         description: Industrial connectivity server that collects device data and publishes it over MQTT, with Modbus drivers in the open source edition.

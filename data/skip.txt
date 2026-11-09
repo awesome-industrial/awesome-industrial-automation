@@ -15,3 +15,6 @@ NativeSensors/EyeGestures
 nasa/nos3
 MikaylaFischler/cc-mek-scada
 dathlin/HslCommunication
+thingsboard/thingsboard
+Serial-Studio/Serial-Studio
+VOLTTRON/volttron

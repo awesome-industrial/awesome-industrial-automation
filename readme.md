@@ -199,6 +199,7 @@ _Gateways, brokers and platforms that move plant data from machines to the syste
 - [Shifu](https://github.com/Edgenesis/shifu) - Kubernetes-native framework that runs each device as a pod, with drivers for OPC UA, Modbus, MQTT and PLCs.
 - [Telegraf](https://github.com/influxdata/telegraf) - Plugin-driven data collection agent with inputs for Modbus, OPC UA, Siemens S7 and MQTT.
 - [ThingsBoard IoT Gateway](https://github.com/thingsboard/thingsboard-gateway) - Python gateway with connectors for Modbus, OPC UA, BACnet, S7, MQTT and more that forwards data to ThingsBoard.
+- [ThingsGateway](https://github.com/ThingsGateway/ThingsGateway) - Cross-platform .NET 8 gateway for edge data acquisition with PLC, Modbus and OPC UA drivers and a web configuration interface.
 
 ### Message Brokers
 
@@ -275,6 +276,7 @@ _Supervisory control, operator screens and plant dashboards._
 - [FlowFuse Dashboard](https://github.com/FlowFuse/node-red-dashboard) - Set of Node-RED nodes for building operator dashboards and data entry screens, also known as Node-RED Dashboard 2.0.
 - [FUXA](https://github.com/frangoteam/FUXA) - Web-based process visualization and HMI editor with Modbus, OPC UA, Siemens S7, Ethernet/IP, BACnet and MQTT connectors.
 - [Ignition](https://inductiveautomation.com/ignition/) `Commercial` - Industrial application platform for SCADA, HMI, alarming and historian, licensed per server with unlimited tags and clients.
+- [json-scada](https://github.com/riclolsen/json-scada) - Portable SCADA and gateway platform built around MongoDB, with IEC 60870-5, DNP3, Modbus, OPC UA and MQTT protocol drivers.
 - [PyScada](https://github.com/pyscada/PyScada) - Django-based SCADA system with an HTML5 HMI and plugins for Modbus, OPC UA, BACnet, VISA, 1-Wire and other data sources.
 - [Rapid SCADA](https://github.com/RapidScada/scada-v6) - Modular .NET platform for monitoring and control systems, with drivers, archives, web-based operator interface and distributed nodes.
 - [Scada-LTS](https://github.com/SCADA-LTS/Scada-LTS) - Web-based, multi-platform SCADA system in Java, continuing the ScadaBR and Mango lineage with data sources, alarms and graphical views.
