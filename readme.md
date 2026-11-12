@@ -184,12 +184,14 @@ _Gateways, brokers and platforms that move plant data from machines to the syste
 
 - [Apache StreamPipes](https://github.com/apache/streampipes) - Self-service toolbox to connect, analyze and explore industrial IoT data streams, with adapters for PLCs and OPC UA.
 - [benthos-umh](https://github.com/united-manufacturing-hub/benthos-umh) - Stream processor with inputs for OPC UA, Siemens S7, Modbus, EtherNet/IP, Beckhoff ADS and Sparkplug B.
+- [DGIOT](https://github.com/dgiot/dgiot) - Industrial IoT platform built on Erlang with device access over Modbus, OPC UA and MQTT, rule engine and web configuration.
 - [Eclipse Kura](https://github.com/eclipse-kura/kura) - Java and OSGi framework for IoT edge gateways with field protocol drivers, cloud connectors and remote management.
 - [EdgeX Foundry](https://github.com/edgexfoundry/edgex-go) - Vendor-neutral microservice framework for edge data collection, with device services for Modbus, BACnet, MQTT and more.
 - [Fledge](https://github.com/fledge-iot/fledge) - Edge platform that collects, processes and forwards sensor and machine data through pluggable south and north services.
 - [FlowFuse](https://github.com/FlowFuse/flowfuse) - Platform for deploying, managing and scaling Node-RED instances across edge devices and teams.
 - [HiveMQ Edge](https://github.com/hivemq/hivemq-edge) - Edge gateway and MQTT broker that translates OPC UA, Modbus, EtherNet/IP and S7 data into MQTT.
 - [Ignition Edge](https://inductiveautomation.com/ignition/edge) `Commercial` - Edge editions of the Ignition platform for device connectivity, local HMI and MQTT publishing at the machine.
+- [IoT DC3](https://github.com/pnoker/iot-dc3) - Spring Cloud based IoT platform with protocol drivers for Modbus, OPC UA, S7 and MQTT, from edge data collection to cloud delivery.
 - [Kepware Server](https://www.velotic.com/products/kepware/kepware-server) `Commercial` - Windows connectivity server with a large library of device drivers that exposes PLC data over OPC UA, OPC DA and MQTT.
 - [Litmus Edge](https://litmus.io/litmus-edge) `Commercial` - Industrial edge platform for collecting, normalizing and analyzing machine data on site.
 - [Neuron](https://github.com/emqx/neuron) - Industrial connectivity server that collects device data and publishes it over MQTT, with Modbus drivers in the open source edition.
@@ -334,6 +336,7 @@ _Storing, modeling and simulating plant data._
 - [QuestDB](https://github.com/questdb/questdb) - Column-oriented time series database with SQL, fast ingestion over the InfluxDB line protocol and PostgreSQL wire compatibility.
 - [TDengine](https://github.com/taosdata/TDengine) - Time series database built for industrial IoT, with built-in caching, stream processing and data subscription.
 - [TimescaleDB](https://github.com/timescale/timescaledb) - PostgreSQL extension for time series with compression, continuous aggregates and retention policies.
+- [Warp 10](https://github.com/senx/warp10-platform) - Time series database and analytics platform with the WarpScript language for storing and processing sensor and geo time series.
 
 ### Information Models
 

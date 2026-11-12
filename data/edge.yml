@@ -43,6 +43,12 @@ sections:
       - name: Shifu
         url: https://github.com/Edgenesis/shifu
         description: Kubernetes-native framework that runs each device as a pod, with drivers for OPC UA, Modbus, MQTT and PLCs.
+      - name: DGIOT
+        url: https://github.com/dgiot/dgiot
+        description: Industrial IoT platform built on Erlang with device access over Modbus, OPC UA and MQTT, rule engine and web configuration.
+      - name: IoT DC3
+        url: https://github.com/pnoker/iot-dc3
+        description: Spring Cloud based IoT platform with protocol drivers for Modbus, OPC UA, S7 and MQTT, from edge data collection to cloud delivery.
       - name: HiveMQ Edge
         url: https://github.com/hivemq/hivemq-edge
         description: Edge gateway and MQTT broker that translates OPC UA, Modbus, EtherNet/IP and S7 data into MQTT.
