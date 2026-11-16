@@ -28,6 +28,9 @@ sections:
       - name: Warp 10
         url: https://github.com/senx/warp10-platform
         description: Time series database and analytics platform with the WarpScript language for storing and processing sensor and geo time series.
+      - name: ReductStore
+        url: https://github.com/reductstore/reductstore
+        description: Time-indexed storage for blobs such as images, vibration data and logs from robots and industrial IoT, with quotas and replication.
       - name: AVEVA PI System
         url: https://www.aveva.com/en/products/aveva-pi-system/
         commercial: true

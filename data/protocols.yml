@@ -37,6 +37,9 @@ sections:
       - name: ArduinoModbus
         url: https://github.com/arduino-libraries/ArduinoModbus
         description: Arduino library for Modbus RTU and TCP clients and servers on Arduino boards.
+      - name: Modbus-STM32-HAL-FreeRTOS
+        url: https://github.com/alejoseb/Modbus-STM32-HAL-FreeRTOS
+        description: Modbus RTU and TCP master and slave library for STM32 microcontrollers using the Cube HAL and FreeRTOS.
       - name: mbpoll
         url: https://github.com/epsilonrt/mbpoll
         description: Command-line utility to read and write Modbus RTU or TCP slaves from a terminal.
@@ -285,6 +288,9 @@ sections:
       - name: iot-communication
         url: https://github.com/xingshuangs/iot-communication
         description: Java library for the Siemens S7, Modbus and Mitsubishi MELSEC protocols.
+      - name: xTools
+        url: https://github.com/x-tools-author/x-tools
+        description: Qt desktop debugging tool for serial, TCP, UDP, WebSocket, Modbus, CAN bus and MQTT links, with Lua and JavaScript scripting.
       - name: Wireshark
         url: https://www.wireshark.org/
         description: Packet analyzer with dissectors for Modbus, OPC UA, S7comm, EtherNet/IP, BACnet, EtherCAT, PROFINET, DNP3 and IEC 61850.

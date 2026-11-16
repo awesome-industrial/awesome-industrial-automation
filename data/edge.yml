@@ -16,6 +16,9 @@ sections:
       - name: ThingsGateway
         url: https://github.com/ThingsGateway/ThingsGateway
         description: Cross-platform .NET 8 gateway for edge data acquisition with PLC, Modbus and OPC UA drivers and a web configuration interface.
+      - name: IoT Master
+        url: https://github.com/god-jason/iot-master
+        description: Go IoT platform with Modbus and PLC drivers for data collection, formulas, scheduled and automatic control, alarms and web HMI pages.
       - name: Neuron
         url: https://github.com/emqx/neuron
         description: Industrial connectivity server that collects device data and publishes it over MQTT, with Modbus drivers in the open source edition.

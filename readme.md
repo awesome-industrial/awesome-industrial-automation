@@ -70,6 +70,7 @@ _Stacks, libraries and tools for the protocols machines speak._
 - [mbusd](https://github.com/3cky/mbusd) - Gateway daemon that bridges Modbus TCP clients to Modbus RTU devices on RS-232 or RS-485 lines.
 - [Modbus Register Maps](https://github.com/proxus-io/modbus-register-maps) - Machine-readable YAML register maps for energy meters, inverters and drives, with address, data type, byte order, unit and scale.
 - [modbus-serial](https://github.com/yaacov/node-modbus-serial) - Pure JavaScript Modbus RTU and TCP client and server for Node.js.
+- [Modbus-STM32-HAL-FreeRTOS](https://github.com/alejoseb/Modbus-STM32-HAL-FreeRTOS) - Modbus RTU and TCP master and slave library for STM32 microcontrollers using the Cube HAL and FreeRTOS.
 - [ModbusTools](https://github.com/serhmarch/ModbusTools) - Cross-platform GUI client and server simulators for Modbus TCP, UDP, RTU and ASCII.
 - [NModbus](https://github.com/NModbus/NModbus) - C# implementation of Modbus masters and slaves over serial RTU and ASCII, TCP and UDP.
 - [node-red-contrib-modbus](https://github.com/BiancoRoyal/node-red-contrib-modbus) - Node-RED nodes for reading and writing Modbus TCP and serial devices.
@@ -175,6 +176,7 @@ _Stacks, libraries and tools for the protocols machines speak._
 - [IoTClient](https://github.com/zhaopeiym/IoTClient) - Library for .NET Standard covering Modbus, Siemens S7, Mitsubishi, Omron FINS and Allen-Bradley PLC communication.
 - [Proxus Drivers](https://github.com/proxus-io/proxus-drivers) - Modbus and OPC UA client drivers for .NET, Native AOT compatible and without third-party dependencies.
 - [Wireshark](https://www.wireshark.org/) - Packet analyzer with dissectors for Modbus, OPC UA, S7comm, EtherNet/IP, BACnet, EtherCAT, PROFINET, DNP3 and IEC 61850.
+- [xTools](https://github.com/x-tools-author/x-tools) - Qt desktop debugging tool for serial, TCP, UDP, WebSocket, Modbus, CAN bus and MQTT links, with Lua and JavaScript scripting.
 
 ## Edge and Integration
 
@@ -192,6 +194,7 @@ _Gateways, brokers and platforms that move plant data from machines to the syste
 - [HiveMQ Edge](https://github.com/hivemq/hivemq-edge) - Edge gateway and MQTT broker that translates OPC UA, Modbus, EtherNet/IP and S7 data into MQTT.
 - [Ignition Edge](https://inductiveautomation.com/ignition/edge) `Commercial` - Edge editions of the Ignition platform for device connectivity, local HMI and MQTT publishing at the machine.
 - [IoT DC3](https://github.com/pnoker/iot-dc3) - Spring Cloud based IoT platform with protocol drivers for Modbus, OPC UA, S7 and MQTT, from edge data collection to cloud delivery.
+- [IoT Master](https://github.com/god-jason/iot-master) - Go IoT platform with Modbus and PLC drivers for data collection, formulas, scheduled and automatic control, alarms and web HMI pages.
 - [Kepware Server](https://www.velotic.com/products/kepware/kepware-server) `Commercial` - Windows connectivity server with a large library of device drivers that exposes PLC data over OPC UA, OPC DA and MQTT.
 - [Litmus Edge](https://litmus.io/litmus-edge) `Commercial` - Industrial edge platform for collecting, normalizing and analyzing machine data on site.
 - [Neuron](https://github.com/emqx/neuron) - Industrial connectivity server that collects device data and publishes it over MQTT, with Modbus drivers in the open source edition.
@@ -334,6 +337,7 @@ _Storing, modeling and simulating plant data._
 - [InfluxDB](https://github.com/influxdata/influxdb) - Time series database for metrics and sensor data, often paired with Telegraf for collection from OPC UA, Modbus and MQTT.
 - [openHistorian](https://github.com/GridProtectionAlliance/openHistorian) - Time series historian from the Grid Protection Alliance, used for high-rate synchrophasor and SCADA data in power systems.
 - [QuestDB](https://github.com/questdb/questdb) - Column-oriented time series database with SQL, fast ingestion over the InfluxDB line protocol and PostgreSQL wire compatibility.
+- [ReductStore](https://github.com/reductstore/reductstore) - Time-indexed storage for blobs such as images, vibration data and logs from robots and industrial IoT, with quotas and replication.
 - [TDengine](https://github.com/taosdata/TDengine) - Time series database built for industrial IoT, with built-in caching, stream processing and data subscription.
 - [TimescaleDB](https://github.com/timescale/timescaledb) - PostgreSQL extension for time series with compression, continuous aggregates and retention policies.
 - [Warp 10](https://github.com/senx/warp10-platform) - Time series database and analytics platform with the WarpScript language for storing and processing sensor and geo time series.
