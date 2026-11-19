@@ -62,6 +62,8 @@ _Stacks, libraries and tools for the protocols machines speak._
 ### Modbus
 
 - [ArduinoModbus](https://github.com/arduino-libraries/ArduinoModbus) - Arduino library for Modbus RTU and TCP clients and servers on Arduino boards.
+- [Busscope Master & Slave](https://busscope.com) `Commercial` - Windows Modbus master and slave testing suite supporting TCP, TLS 1.2+, RTU, and ASCII, with a free browser-based frame parser.
+- [Busscope Modbus Register Maps](https://github.com) - Open-source CSV and JSON Modbus register maps for industrial energy meters, PLCs, and VFDs.
 - [digitalpetri modbus](https://github.com/digitalpetri/modbus) - Java 17+ library for Modbus TCP, Modbus TCP Security and Modbus RTU over serial or TCP.
 - [FluentModbus](https://github.com/Apollo3zehn/FluentModbus) - Lightweight Modbus TCP and RTU client and server for .NET.
 - [j2mod](https://github.com/steveohara/j2mod) - Java Modbus library with master and slave support over TCP, UDP and serial lines.
