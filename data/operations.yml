@@ -13,6 +13,9 @@ sections:
       - name: OpenMES
         url: https://github.com/Mes-Open/OpenMes
         description: Self-hosted MES for small and mid-sized discrete and batch manufacturers, with work orders, routings, material lots, downtime and tablet terminals.
+      - name: S-PMS
+        url: https://github.com/s-pms/SPMS-Server
+        description: Spring Boot backend for a production management system combining MES, WMS, quality and IoT device modules, documented in Chinese.
       - name: Odoo Manufacturing
         url: https://www.odoo.com/app/manufacturing
         description: Manufacturing app of the open source Odoo suite, with bills of materials, work orders, work centers and MRP.

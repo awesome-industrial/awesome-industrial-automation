@@ -310,6 +310,7 @@ _Production management, OEE, maintenance and quality on the shop floor._
 - [OpenMES](https://github.com/Mes-Open/OpenMes) - Self-hosted MES for small and mid-sized discrete and batch manufacturers, with work orders, routings, material lots, downtime and tablet terminals.
 - [Point85 OEE](https://github.com/point85/OEE-Designer) - OEE data collection and calculation applications that resolve OPC UA, OPC DA, MQTT, Modbus and database events into availability, performance and quality.
 - [qcadoo MES](https://github.com/qcadoo/mes) - Web-based production management system for small and medium manufacturers, covering orders, technologies, planning and shop floor tracking.
+- [S-PMS](https://github.com/s-pms/SPMS-Server) - Spring Boot backend for a production management system combining MES, WMS, quality and IoT device modules, documented in Chinese.
 
 ### Maintenance
 
@@ -371,6 +372,7 @@ _Storing, modeling and simulating plant data._
 - [OpenModelica](https://github.com/OpenModelica/OpenModelica) - Modelica modeling and simulation environment for multi-domain physical systems such as machines, drives and process plants.
 - [OpenTwins](https://github.com/ertis-research/opentwins) - Composable digital twin platform built on Eclipse Ditto, Grafana and other open components, from the University of Malaga.
 - [Prosys OPC UA Simulation Server](https://www.prosysopc.com/products/opc-ua-simulation-server/) `Commercial` - Free OPC UA server that publishes simulated signals for testing clients without a real device.
+- [ProtoForge](https://github.com/suoten/ProtoForge) - Web-based simulator for Modbus, S7, OPC UA, BACnet, MQTT and other protocols, with device templates and fault injection for testing gateways and SCADA.
 - [SimPy](https://gitlab.com/team-simpy/simpy) - Discrete-event simulation library for Python, used to model production lines, buffers and resource use.
 
 ## Industrial AI
