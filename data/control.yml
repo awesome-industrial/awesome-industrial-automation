@@ -31,6 +31,9 @@ sections:
       - name: MATIEC
         url: https://github.com/beremiz/matiec
         description: IEC 61131-3 compiler that translates structured text, instruction list and SFC programs to C, used by Beremiz and OpenPLC.
+      - name: truST Platform
+        url: https://github.com/johannesPettersson80/trust-platform
+        description: Structured Text language server, compiler and debugger for VS Code that runs programs on desktops and microcontrollers.
       - name: RuSTy
         url: https://github.com/PLC-lang/rusty
         description: Structured text compiler written in Rust that uses LLVM to produce native code for many platforms.

@@ -35,3 +35,17 @@ siemens/edgeshark
 gnh1201/welsonjs
 KouShenhai/KCloud-Platform-IoT
 opentoms/opentoms
+mkturkcan/valdrada
+sapphirexai/bufferpad
+sltzgs/OpenWindSCADA
+hpmicro/hpm_sdk
+Exploit-Garbage/0day-Rubbish
+ros-claw/rosclaw
+arounamounchili/linkforge
+cyanfish-x/tellux
+brunnojob/pid-pressure-control
+omnilink-tech/omnisim
+Zhangweihui666/silver-tourism-digital-twin
+ioBroker/ioBroker.vis
+engyasin/awesome-mechatronics
+Fortiphyd/GRFICSv2

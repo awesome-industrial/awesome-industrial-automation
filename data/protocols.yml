@@ -63,6 +63,9 @@ sections:
       - name: open62541
         url: https://github.com/open62541/open62541
         description: OPC UA client and server SDK in C99 with PubSub support, suitable for embedded targets.
+      - name: open62541pp
+        url: https://github.com/open62541pp/open62541pp
+        description: C++17 wrapper of open62541 with high-level client, server and node classes and an async API.
       - name: opcua-asyncio
         url: https://github.com/FreeOpcUa/opcua-asyncio
         description: Asyncio-based OPC UA client and server library for Python, published as asyncua.
@@ -161,6 +164,9 @@ sections:
       - name: S7.Net Plus
         url: https://github.com/S7NetPlus/s7netplus
         description: Library for .NET to read and write data on Siemens S7 PLCs over Ethernet.
+      - name: SIMATIC S7 Webserver API
+        url: https://github.com/siemens/simatic-s7-webserver-api
+        description: Siemens .NET client for the S7-1500 web API to browse, read and write PLC tags, deploy web apps and read diagnostics.
       - name: gos7
         url: https://github.com/robinson/gos7
         description: Go implementation of the Siemens S7 protocol for reading and writing PLC data.

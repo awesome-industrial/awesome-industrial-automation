@@ -93,6 +93,7 @@ _Stacks, libraries and tools for the protocols machines speak._
 - [opcua-client-gui](https://github.com/FreeOpcUa/opcua-client-gui) - Desktop OPC UA client for browsing address spaces, reading, writing and subscribing to nodes.
 - [opcua-commander](https://github.com/node-opcua/opcua-commander) - Terminal-based OPC UA client for browsing and monitoring nodes, built on node-opcua.
 - [open62541](https://github.com/open62541/open62541) - OPC UA client and server SDK in C99 with PubSub support, suitable for embedded targets.
+- [open62541pp](https://github.com/open62541pp/open62541pp) - C++17 wrapper of open62541 with high-level client, server and node classes and an async API.
 - [S2OPC](https://gitlab.com/systerel/S2OPC) - Safety and security oriented OPC UA toolkit in C, designed with embedded devices in mind.
 - [UA-.NETStandard](https://github.com/OPCFoundation/UA-.NETStandard) - OPC Foundation reference stack for building OPC UA clients and servers in .NET.
 - [UA-ModelCompiler](https://github.com/OPCFoundation/UA-ModelCompiler) - Generates NodeSet files and C# or ANSI C code from OPC UA information model designs.
@@ -121,6 +122,7 @@ _Stacks, libraries and tools for the protocols machines speak._
 - [node-red-contrib-s7](https://github.com/st-one-io/node-red-contrib-s7) - Node-RED nodes to read and write variables on Siemens S7 PLCs.
 - [python-snap7](https://github.com/gijzelaerr/python-snap7) - Pure Python library for the classic S7 protocol, covering S7-300/400 and S7-1200/1500 with PUT/GET enabled.
 - [S7.Net Plus](https://github.com/S7NetPlus/s7netplus) - Library for .NET to read and write data on Siemens S7 PLCs over Ethernet.
+- [SIMATIC S7 Webserver API](https://github.com/siemens/simatic-s7-webserver-api) - Siemens .NET client for the S7-1500 web API to browse, read and write PLC tags, deploy web apps and read diagnostics.
 - [Snap7](https://snap7.sourceforge.net/) - Multi-platform S7 communication suite with client, server and partner components for exchanging data with S7 PLCs.
 - [SoftPlc](https://github.com/fbarresi/SoftPlc) - Simulated S7 PLC in a Docker container, with a web API to create and edit data blocks for testing.
 
@@ -255,6 +257,7 @@ _Soft PLCs, IEC 61131-3 and IEC 61499 tooling, motion control, CNC and industria
 - [PLCverif](https://gitlab.com/plcverif-oss) - Formal verification tool from CERN that model checks PLC programs, including Siemens STEP 7 SCL and STL code.
 - [RuSTy](https://github.com/PLC-lang/rusty) - Structured text compiler written in Rust that uses LLVM to produce native code for many platforms.
 - [TcUnit](https://github.com/tcunit/TcUnit) - Unit testing framework in the xUnit style for Beckhoff TwinCAT 3 PLC code.
+- [truST Platform](https://github.com/johannesPettersson80/trust-platform) - Structured Text language server, compiler and debugger for VS Code that runs programs on desktops and microcontrollers.
 - [Twinpack](https://github.com/Zeugwerk/Twinpack) - Package manager for TwinCAT libraries with IDE integration, using its own server or any NuGet feed as package source.
 - [vscode-st](https://github.com/Serhioromano/vscode-st) - Visual Studio Code extension with syntax highlighting, snippets and a beta formatter for IEC 61131-3 structured text.
 
@@ -311,6 +314,7 @@ _Production management, OEE, maintenance and quality on the shop floor._
 - [Point85 OEE](https://github.com/point85/OEE-Designer) - OEE data collection and calculation applications that resolve OPC UA, OPC DA, MQTT, Modbus and database events into availability, performance and quality.
 - [qcadoo MES](https://github.com/qcadoo/mes) - Web-based production management system for small and medium manufacturers, covering orders, technologies, planning and shop floor tracking.
 - [S-PMS](https://github.com/s-pms/SPMS-Server) - Spring Boot backend for a production management system combining MES, WMS, quality and IoT device modules, documented in Chinese.
+- [WebErpMesv2](https://github.com/SMEWebify/WebErpMesv2) - ERP and MES for sheet metal, machining and mold shops, with routings, BOMs, shop floor tracking and capacity planning.
 
 ### Maintenance
 
@@ -428,7 +432,7 @@ _A short set of widely used open source OT security tools. The two lists at the 
 - [Caldera for OT](https://github.com/mitre/caldera-ot) - MITRE Caldera plugins that emulate adversary actions over Modbus, BACnet, DNP3, IEC 61850 and other OT protocols.
 - [Conpot](https://github.com/mushorg/conpot) - Low-interaction ICS honeypot that emulates PLCs over Modbus, S7, BACnet, IPMI and other protocols.
 - [CSET](https://github.com/cisagov/cset) - CISA Cyber Security Evaluation Tool that walks an organization through assessments against IEC 62443, NIST and other standards.
-- [GRFICSv2](https://github.com/Fortiphyd/GRFICSv2) - Virtual ICS lab with a 3D chemical plant simulation, PLC, HMI and attacker machines for security training.
+- [GRFICSv3](https://github.com/Fortiphyd/GRFICSv3) - Containerized ICS lab with a 3D chemical plant simulation, PLC, HMI, engineering and attacker machines for security training.
 - [ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools) - Collection of tools, protocol references, PCAPs and tips for exploring ICS security, from the University of Illinois ITI.
 - [ICSpector](https://github.com/microsoft/ics-forensics-tools) - Microsoft forensics framework that pulls project files and metadata from PLCs to look for anomalous logic.
 - [Labshock](https://github.com/zakharb/labshock) - Docker-based OT cyber range with SCADA, PLC, engineering workstation and DMZ for practicing attacks and detection in isolation.

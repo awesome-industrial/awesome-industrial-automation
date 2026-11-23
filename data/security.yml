@@ -25,9 +25,9 @@ sections:
       - name: Conpot
         url: https://github.com/mushorg/conpot
         description: Low-interaction ICS honeypot that emulates PLCs over Modbus, S7, BACnet, IPMI and other protocols.
-      - name: GRFICSv2
-        url: https://github.com/Fortiphyd/GRFICSv2
-        description: Virtual ICS lab with a 3D chemical plant simulation, PLC, HMI and attacker machines for security training.
+      - name: GRFICSv3
+        url: https://github.com/Fortiphyd/GRFICSv3
+        description: Containerized ICS lab with a 3D chemical plant simulation, PLC, HMI, engineering and attacker machines for security training.
       - name: Labshock
         url: https://github.com/zakharb/labshock
         description: Docker-based OT cyber range with SCADA, PLC, engineering workstation and DMZ for practicing attacks and detection in isolation.

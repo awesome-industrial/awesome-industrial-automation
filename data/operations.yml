@@ -22,6 +22,9 @@ sections:
       - name: ERPNext
         url: https://github.com/frappe/erpnext
         description: Open source ERP whose manufacturing module covers bills of materials, work orders, job cards, production planning and subcontracting.
+      - name: WebErpMesv2
+        url: https://github.com/SMEWebify/WebErpMesv2
+        description: ERP and MES for sheet metal, machining and mold shops, with routings, BOMs, shop floor tracking and capacity planning.
       - name: frePPLe
         url: https://github.com/frePPLe/frepple
         description: Demand forecasting and advanced planning and scheduling tool for manufacturing companies.
