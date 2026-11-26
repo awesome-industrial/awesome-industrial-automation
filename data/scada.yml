@@ -19,6 +19,9 @@ sections:
       - name: PyScada
         url: https://github.com/pyscada/PyScada
         description: Django-based SCADA system with an HTML5 HMI and plugins for Modbus, OPC UA, BACnet, VISA, 1-Wire and other data sources.
+      - name: IOT-Tree Server
+        url: https://github.com/bambooww/iot-tree
+        description: Java server that organizes channels, device drivers and tags in a tree, with an online HMI editor and message flows for control logic.
       - name: FlowFuse Dashboard
         url: https://github.com/FlowFuse/node-red-dashboard
         description: Set of Node-RED nodes for building operator dashboards and data entry screens, also known as Node-RED Dashboard 2.0.

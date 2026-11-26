@@ -173,6 +173,7 @@ _Stacks, libraries and tools for the protocols machines speak._
 ### Multi-protocol Libraries
 
 - [Apache PLC4X](https://github.com/apache/plc4x) - Libraries for Java, Go, C and Python that read and write PLCs over S7, Modbus, EtherNet/IP, ADS, OPC UA and more through one API.
+- [Eclipse Thingweb node-wot](https://github.com/eclipse-thingweb/node-wot) - W3C Web of Things runtime for Node.js with bindings for HTTP, CoAP, MQTT, Modbus, OPC UA and other protocols behind one Thing Description API.
 - [ICSNPP](https://github.com/cisagov/ICSNPP) - Zeek parsers for industrial protocols including BACnet, DNP3, EtherCAT, EtherNet/IP, Modbus, OPC UA, PROFINET and S7comm.
 - [iot-communication](https://github.com/xingshuangs/iot-communication) - Java library for the Siemens S7, Modbus and Mitsubishi MELSEC protocols.
 - [IoTClient](https://github.com/zhaopeiym/IoTClient) - Library for .NET Standard covering Modbus, Siemens S7, Mitsubishi, Omron FINS and Allen-Bradley PLC communication.
@@ -284,6 +285,7 @@ _Supervisory control, operator screens and plant dashboards._
 - [FlowFuse Dashboard](https://github.com/FlowFuse/node-red-dashboard) - Set of Node-RED nodes for building operator dashboards and data entry screens, also known as Node-RED Dashboard 2.0.
 - [FUXA](https://github.com/frangoteam/FUXA) - Web-based process visualization and HMI editor with Modbus, OPC UA, Siemens S7, Ethernet/IP, BACnet and MQTT connectors.
 - [Ignition](https://inductiveautomation.com/ignition/) `Commercial` - Industrial application platform for SCADA, HMI, alarming and historian, licensed per server with unlimited tags and clients.
+- [IOT-Tree Server](https://github.com/bambooww/iot-tree) - Java server that organizes channels, device drivers and tags in a tree, with an online HMI editor and message flows for control logic.
 - [json-scada](https://github.com/riclolsen/json-scada) - Portable SCADA and gateway platform built around MongoDB, with IEC 60870-5, DNP3, Modbus, OPC UA and MQTT protocol drivers.
 - [PyScada](https://github.com/pyscada/PyScada) - Django-based SCADA system with an HTML5 HMI and plugins for Modbus, OPC UA, BACnet, VISA, 1-Wire and other data sources.
 - [Rapid SCADA](https://github.com/RapidScada/scada-v6) - Modular .NET platform for monitoring and control systems, with drivers, archives, web-based operator interface and distributed nodes.
@@ -366,6 +368,7 @@ _Storing, modeling and simulating plant data._
 ### Digital Twins and Simulation
 
 - [diagslave](https://www.modbusdriver.com/diagslave.html) `Commercial` - Free command-line Modbus RTU, ASCII and TCP slave simulator for testing masters on Windows and Linux.
+- [Digital Twin as a Service](https://github.com/INTO-CPS-Association/DTaaS) - Platform from the INTO-CPS Association for building digital twins from reusable assets, running them and sharing them with other users.
 - [DWSIM](https://sourceforge.net/projects/dwsim/) - Steady-state and dynamic chemical process simulator with a CAPE-OPEN compliant flowsheet editor.
 - [Eclipse Ditto](https://github.com/eclipse-ditto/ditto) - Framework that keeps a digital twin of each device in the cloud and exposes its state through HTTP, WebSocket, MQTT and AMQP APIs.
 - [Factory I/O](https://factoryio.com/) `Commercial` - Simulated 3D factory with conveyors, sensors and actuators that connects to real or simulated PLCs for training and virtual commissioning.
@@ -375,6 +378,7 @@ _Storing, modeling and simulating plant data._
 - [Modelica Standard Library](https://github.com/modelica/ModelicaStandardLibrary) - Free library of mechanical, electrical, thermal, fluid and control components for building Modelica plant models.
 - [OpenModelica](https://github.com/OpenModelica/OpenModelica) - Modelica modeling and simulation environment for multi-domain physical systems such as machines, drives and process plants.
 - [OpenTwins](https://github.com/ertis-research/opentwins) - Composable digital twin platform built on Eclipse Ditto, Grafana and other open components, from the University of Malaga.
+- [PathSim](https://github.com/pathsim/pathsim) - Python framework for block diagram simulation of continuous, discrete and hybrid dynamical systems, with stiff solvers and event handling.
 - [Prosys OPC UA Simulation Server](https://www.prosysopc.com/products/opc-ua-simulation-server/) `Commercial` - Free OPC UA server that publishes simulated signals for testing clients without a real device.
 - [ProtoForge](https://github.com/suoten/ProtoForge) - Web-based simulator for Modbus, S7, OPC UA, BACnet, MQTT and other protocols, with device templates and fault injection for testing gateways and SCADA.
 - [SimPy](https://gitlab.com/team-simpy/simpy) - Discrete-event simulation library for Python, used to model production lines, buffers and resource use.

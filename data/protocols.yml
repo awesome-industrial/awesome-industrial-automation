@@ -294,6 +294,9 @@ sections:
       - name: iot-communication
         url: https://github.com/xingshuangs/iot-communication
         description: Java library for the Siemens S7, Modbus and Mitsubishi MELSEC protocols.
+      - name: Eclipse Thingweb node-wot
+        url: https://github.com/eclipse-thingweb/node-wot
+        description: W3C Web of Things runtime for Node.js with bindings for HTTP, CoAP, MQTT, Modbus, OPC UA and other protocols behind one Thing Description API.
       - name: xTools
         url: https://github.com/x-tools-author/x-tools
         description: Qt desktop debugging tool for serial, TCP, UDP, WebSocket, Modbus, CAN bus and MQTT links, with Lua and JavaScript scripting.

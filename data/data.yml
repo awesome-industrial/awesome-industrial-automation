@@ -85,6 +85,9 @@ sections:
       - name: OpenTwins
         url: https://github.com/ertis-research/opentwins
         description: Composable digital twin platform built on Eclipse Ditto, Grafana and other open components, from the University of Malaga.
+      - name: Digital Twin as a Service
+        url: https://github.com/INTO-CPS-Association/DTaaS
+        description: Platform from the INTO-CPS Association for building digital twins from reusable assets, running them and sharing them with other users.
       - name: Prosys OPC UA Simulation Server
         url: https://www.prosysopc.com/products/opc-ua-simulation-server/
         commercial: true
@@ -112,6 +115,9 @@ sections:
       - name: FMPy
         url: https://github.com/CATIA-Systems/FMPy
         description: Python library to simulate and validate Functional Mock-up Units exported from Modelica, Simulink and other tools.
+      - name: PathSim
+        url: https://github.com/pathsim/pathsim
+        description: Python framework for block diagram simulation of continuous, discrete and hybrid dynamical systems, with stiff solvers and event handling.
       - name: DWSIM
         url: https://sourceforge.net/projects/dwsim/
         description: Steady-state and dynamic chemical process simulator with a CAPE-OPEN compliant flowsheet editor.
